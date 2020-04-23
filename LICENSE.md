@@ -1,3 +1,6 @@
+(c) 2020 - CyBERG Nyrt.
+
+
 Terms and Conditions for Free Templates - from https://www.themefisher.com/license
 ==================================================================================
 1. You cannot remove the copyright link to Themefisher without buying the license.
