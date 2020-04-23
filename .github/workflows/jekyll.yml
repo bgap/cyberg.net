@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Jekyll Builder for GitHub Pages
-        uses: meitar/jekyll-builder-for-github-pages-action@v1
+      - uses: actions/checkout@v2
+      - uses: EdricChan03/action-build-deploy-ghpages@v2
+        with:
+          github_token: ${{ secrets.ACTIONS_TOKEN }}
