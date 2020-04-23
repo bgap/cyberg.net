@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    airspace-jekyll (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -212,6 +217,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.1.1)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -245,9 +251,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  airspace-jekyll!
+  bundler (~> 2.1.4)
   github-pages
+  jekyll (~> 3.8.5)
   jekyll-feed (~> 0.12)
-  minima (~> 2.5)
+  rake (~> 12.3.1)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
