@@ -12,14 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Jekyll Builder for GitHub Pages
-        uses: meitar/jekyll-builder-for-github-pages-action@v1
+      - uses: actions/checkout@v2
+      - uses: EdricChan03/action-build-deploy-ghpages@v2
         with:
-          #secret_gh_pages_api_token:
-          #pre_build_commands: # optional
-          #post_build_commands: # optional
-          #jekyll_build_opts: # optional
-          #gh_pages_publishing_source: # optional
-          git_committer_name: Jekyll Builder
-          git_committer_email: konrad.kiss@cyberg.net
-          #git_commit_message: # optional, default is Auto-commit Jekyll build from Jekyll Builder for GitHub Pages Action.
+          github_token: ${{ secrets.ACTIONS_TOKEN }}
