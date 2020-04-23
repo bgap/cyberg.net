@@ -33,6 +33,8 @@ github_username: jekyll
 # theme: minima
 plugins:
   # - jekyll-feed
+  - jekyll-multiple-languages-plugin
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -52,3 +54,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Localization settings - jekyll-multiple-languages-plugin
+languages: ["en", "hu"]
+exclude_from_localizations: ["css", "js", "img", "fonts", "favicon.ico"]
