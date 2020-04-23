@@ -57,4 +57,4 @@ plugins:
 
 # Localization settings - jekyll-multiple-languages-plugin
 languages: ["en", "hu"]
-exclude_from_localizations: ["css", "js", "img", "fonts", "favicon.ico"]
+exclude_from_localizations: ["css", "js", "fonts"]
