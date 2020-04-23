@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Build
 
 on:
   push:
@@ -15,12 +15,3 @@ jobs:
         with:
           github_token: ${{ secrets.ACTIONS_TOKEN }}
           skip_deploy: 'true'
-
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: EdricChan03/action-build-deploy-ghpages@v2
-        with:
-          github_token: ${{ secrets.ACTIONS_TOKEN }}
-          skip_deploy: 'false'
