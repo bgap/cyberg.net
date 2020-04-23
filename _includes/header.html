@@ -19,9 +19,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">
-                <img src="{{ "/img/logo.png" | prepend: site.baseurl_root}}"
-                alt="Logo" />
+              <a class="navbar-brand" href="{{ site.baseurl }}/">
+                <img
+                  class="cyberg-logo"
+                  src="{{ site.baseurl }}/img/cyberg/CYBERG_LOGO_V_B_real.png"
+                  alt="Logo"
+                />
               </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,29 +33,28 @@
               id="bs-example-navbar-collapse-1"
             >
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/">{% t pages.home %}</a></li>
                 <li>
-                  <a href="{{ site.baseurl }}/work">{% t pages.work %}</a>
+                  {% if site.lang == "hu" %}
+                  <a href="{{ site.baseurl_root }}{{ page.url }}"
+                    >{% t global.english %}</a
+                  >
+                  {% elsif site.lang == "en" %}
+                  <a href="{{ site.baseurl_root }}/hu{{ page.url }}"
+                    >{% t global.hungarian %}</a
+                  >
+                  {% endif %}
                 </li>
+
+                <!-- <li><a href="{{ site.baseurl }}/">Home</a></li>
+                <li><a href="{{ site.baseurl }}/work">Work</a></li>
                 <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
                 <li><a href="#">Service</a></li>
-                <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+                <li><a href="{{ site.baseurl }}/contact">Contact</a></li> -->
               </ul>
             </div>
             <!-- /.navbar-collapse -->
           </div>
           <!-- /.container-fluid -->
-
-          <!-- Language selector -->
-          {% if site.lang == "hu" %}
-          <a href="{{ site.baseurl_root }}{{ page.url }}"
-            >{% t global.english %}</a
-          >
-          {% elsif site.lang == "en" %}
-          <a href="{{ site.baseurl_root }}/hu{{ page.url }}"
-            >{% t global.hungarian %}</a
-          >
-          {% endif %}
         </nav>
       </div>
     </div>
