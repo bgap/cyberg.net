@@ -1,6 +1,7 @@
 global:
   hungarien: Magyar
   english: Angol
-pages:
-  home: Kezdőoldal
-  work: Munka
+sections:
+  intro:
+    title: MAGYARCIM A CyBERG-ben azon dolgozunk, hogy a virtuális világ valósabb legyen
+    content: Hosszu szoveg magyarul

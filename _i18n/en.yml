@@ -1,6 +1,14 @@
 global:
   hungarian: Hungarian
   english: English
-pages:
-  home: Home
-  work: Work
+sections:
+  intro:
+    title: WE WORK IN CYBERG TO MAKE THE VIRTUAL WORLD MORE REAL
+    content: >
+      CyBERG Corp. Plc. is the developer of the disruptive 3FA\n
+      (Food/drinks For Free Anywhere) model. Vision is building up a\n
+      global digital community through bricks and mortar touchpoints,\n
+      where physical filters supported by new technologies ensure the\n
+      cleanliness of data and filter out fake profiles and false\n
+      information. As an incentive we offer discounts or even free\n
+      products/services in the physical shops.
