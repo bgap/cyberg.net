@@ -15,7 +15,7 @@ jobs:
       - name: Jekyll Builder for GitHub Pages
         uses: meitar/jekyll-builder-for-github-pages-action@v1
         with:
-          secret_gh_pages_api_token: ec8e781465c682386b582090e6948353e7dc71ba
+          #secret_gh_pages_api_token:
           #pre_build_commands: # optional
           #post_build_commands: # optional
           #jekyll_build_opts: # optional
