@@ -6,287 +6,264 @@ permalink: /
 
 <!-- Slider Start -->
 <section id="slider">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="block">
-          <div>
-            <h2 class="animated fadeInUp">
-              WE WORK IN CYBERG TO  MAKE THE VIRTUAL WORLD MORE REAL
-            </h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="block">
+                    <div>
+                        <h2 class="animated fadeInUp">
+                            {% t sections.intro.title %}
+                        </h2>
 
-            <p class="animated fadeInUp">
-              CyBERG Corp. Plc. is the developer of the disruptive 3FA
-              (Food/drinks For Free Anywhere) model. Vision is building up a
-              global digital community through bricks and mortar touchpoints,
-              where physical filters supported by new technologies ensure the
-              cleanliness of data and filter out fake profiles and false
-              information. As an incentive we offer discounts or even free
-              products/services in the physical shops.
-            </p>
-          </div>
+                        <p class="animated fadeInUp">
+                            {% t sections.intro.content %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="cyberg-3fa-mockup animated fadeInUp" src="{{ site.baseurl }}/img/cyberg/mockup_iphonex.png"/>
+            </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <img
-          class="cyberg-3fa-mockup animated fadeInUp"
-          src="{{ site.baseurl }}/img/cyberg/mockup_iphonex.png"
-        />
-      </div>
     </div>
-  </div>
 </section>
 <!-- Wrapper Start -->
 <section id="ceo">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5 col-sm-12">
-        <div class="block cyberg-ceo-img">
-          <img src="img/cyberg/balazs_647x392.png" alt="Img" />
-        </div>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-12">
+                <div class="block cyberg-ceo-img">
+                    <img alt="Img" src="img/cyberg/balazs_647x392.png"/>
+                </div>
+            </div>
 
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            <h2>BALÁZS RÓZSA</h2>
-            <p>
-              WE PROVIDE FOOD FOR FREE
-            </p>
-          </div>
-          <p>
-            Beyond good food, through our platform we're upselling premium
-            services, digital content, games and apps in the future. Thousands
-            or tens of thousands of restaurants with this hybrid model make
-            massively more money from digital than meals. The extra revenue we
-            earn can be reinvested in the network. So, we can provide food for
-            free...
-          </p>
-          <a href="https://cybergcorp.com/tmpls/doc/CEO_vision_23052019_en.pdf"
-            >CEO's vision <i class="fa fa-arrow-right"></i>
-          </a>
+            <div class="col-md-7 col-sm-12">
+                <div class="block">
+                    <div class="section-title">
+                        <h2>BALÁZS RÓZSA</h2>
+                        <p>
+                            WE PROVIDE FOOD FOR FREE
+                        </p>
+                    </div>
+                    <p>
+                        Beyond good food, through our platform we're upselling premium
+                                                                                                                                                                                                                                                                                                                                                                                                            services, digital content, games and apps in the future. Thousands
+                                                                                                                                                                                                                                                                                                                                                                                                            or tens of thousands of restaurants with this hybrid model make
+                                                                                                                                                                                                                                                                                                                                                                                                            massively more money from digital than meals. The extra revenue we
+                                                                                                                                                                                                                                                                                                                                                                                                            earn can be reinvested in the network. So, we can provide food for
+                                                                                                                                                                                                                                                                                                                                                                                                            free...
+                    </p>
+                    <a href="https://cybergcorp.com/tmpls/doc/CEO_vision_23052019_en.pdf">CEO's vision
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>
 
-<section id="company">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            <h2>CYBERG ON THE STOCK MARKET</h2>
-          </div>
-          <p>
-            The corporation was listed on the Budapest Stock Exchange Xtend
-            market on 19 Oct 2018. First trading date: 10 Jan 2019.
-          </p>
-          <a href="https://bse.hu/pages/company_profile/$security/CYBERG"
-            >See more details on the BSE website.
-            <i class="fa fa-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-      <!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <img src="img/cyberg/cy_xtrend_698x392.png" alt="Img" />
-        </div>
-      </div>
-      <!-- .col-md-5 close -->
-    </div>
-  </div>
-</section>
+POSTS
+<!-- <ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul> -->
+
+{% for post in site.posts %}
+    {{ post.title }}
+    {% assign evenOdd = forloop.index | modulo: 2 %}
+    {% include post-intro.html post=post mediaPosition=evenOdd %}
+{% endfor %}
 
 <section id="feature">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-6">
-        <h2>SOFTWARE ENGINEERING TEAM</h2>
-        <p>
-          In 2020 Bitgap Ltd. became a 100% subsidiary so a highly skilled
-          software engineer team has joined CYBERG. The professional team mainly
-          has been engaged in fintech and logistic solutions based on blockchain
-          and cloud technologies, but have also established digital sales
-          systems of high conversion potential, enhanced with gaming elements,
-          artificial intelligence and machine learning. For a key client
-          (PayCap) they have recently developed a global payment system.
-          Earlier, Bitgap worked for Silicon Valley companies like First
-          Foundry, GarageGames, and Disney Interactive.
-        </p>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-6">
+                <h2>SOFTWARE ENGINEERING TEAM</h2>
+                <p>
+                    In 2020 Bitgap Ltd. became a 100% subsidiary so a highly skilled
+                                                                                                                                                                                                                                                                                                                                          software engineer team has joined CYBERG. The professional team mainly
+                                                                                                                                                                                                                                                                                                                                          has been engaged in fintech and logistic solutions based on blockchain
+                                                                                                                                                                                                                                                                                                                                          and cloud technologies, but have also established digital sales
+                                                                                                                                                                                                                                                                                                                                          systems of high conversion potential, enhanced with gaming elements,
+                                                                                                                                                                                                                                                                                                                                          artificial intelligence and machine learning. For a key client
+                                                                                                                                                                                                                                                                                                                                          (PayCap) they have recently developed a global payment system.
+                                                                                                                                                                                                                                                                                                                                          Earlier, Bitgap worked for Silicon Valley companies like First
+                                                                                                                                                                                                                                                                                                                                          Foundry, GarageGames, and Disney Interactive.
+                </p>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 <!-- Service Start -->
 <section id="service">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2>Our Services</h2>
-        <p>
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts. Separated they
-          live in Bookmarksgrove right at the coast of the Semantics
-        </p>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>
+                    Far far away, behind the word mountains, far from the countries
+                                                                                                                                                                                                                                                                                                                                          Vokalia and Consonantia, there live the blind texts. Separated they
+                                                                                                                                                                                                                                                                                                                                          live in Bookmarksgrove right at the coast of the Semantics
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="service-item">
+                    <i class="icon ion-coffee"></i>
+                    <h4>Branding</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="service-item">
+                    <i class="ion-compass"></i>
+                    <h4>Web Design</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="service-item">
+                    <i class="ion-image"></i>
+                    <h4>App Design</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="service-item">
+                    <i class="ion-bug"></i>
+                    <h4>Start Up</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="service-item">
+                    <i class="ion-headphone"></i>
+                    <h4>Logo Design</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="service-item">
+                    <i class="ion-leaf"></i>
+                    <h4>Development</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="service-item">
+                    <i class="ion-planet"></i>
+                    <h4>Brand Identity</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="service-item">
+                    <i class="ion-earth"></i>
+                    <h4>Brand Identity</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="icon ion-coffee"></i>
-          <h4>Branding</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-compass"></i>
-          <h4>Web Design</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-image"></i>
-          <h4>App Design</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-bug"></i>
-          <h4>Start Up</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-headphone"></i>
-          <h4>Logo Design</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-leaf"></i>
-          <h4>Development</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-planet"></i>
-          <h4>Brand Identity</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="service-item">
-          <i class="ion-earth"></i>
-          <h4>Brand Identity</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 <!-- Call to action Start -->
 <section id="call-to-action">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h2>We design delightful digital experiences.</h2>
-          <p>
-            Read more about what we do and our philosophy of design. Judge for
-            yourself The work and results we’ve achieved for other clients, and
-            meet our highly experienced Team who just love to design.
-          </p>
-          <a class="btn btn-default btn-call-to-action" href="#"
-            >Tell Us Your Story</a
-          >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>We design delightful digital experiences.</h2>
+                    <p>
+                        Read more about what we do and our philosophy of design. Judge for
+                                                                                                                                                                                                                                                                                                                                                                                                            yourself The work and results we’ve achieved for other clients, and
+                                                                                                                                                                                                                                                                                                                                                                                                            meet our highly experienced Team who just love to design.
+                    </p>
+                    <a class="btn btn-default btn-call-to-action" href="#">Tell Us Your Story</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>
 <!-- Content Start -->
 <section id="testimonial">
-  <div class="container">
-    <div class="row">
-      <div class="section-title text-center">
-        <h2>Fun Facts About Us</h2>
-        <p>
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts. Separated they
-          live in Bookmarksgrove right at the coast of the Semantics
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        {% if site.data.funfacts.size > 0 %}
-        <div class="block">
-          {% for ff in site.data.funfacts %}
-          <ul class="counter-box clearfix">
-            <li>
-              <div class="block">
-                <i class="{{ ff.icon }}"></i>
-                <h4 class="counter">{{ ff.counter }}</h4>
-                <span>{{ ff.text }}</span>
-              </div>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
-      </div>
-      <div class="col-md-6">
-        {% if site.data.testimonials.size > 0 %}
-        <div class="testimonial-carousel">
-          <div id="testimonial-slider" class="owl-carousel">
-            {% for tm in site.data.testimonials %}
-            <div>
-              <img src="img/cotation.png" alt="IMG" />
-              <p>{{ tm.testimonial }}</p>
-              <div class="user">
-                <img src="{{ tm.image }}" alt="Pepole" />
-                <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
-              </div>
+    <div class="container">
+        <div class="row">
+            <div class="section-title text-center">
+                <h2>Fun Facts About Us</h2>
+                <p>
+                    Far far away, behind the word mountains, far from the countries
+                                                                                                                                                                                                                                                                                                                                          Vokalia and Consonantia, there live the blind texts. Separated they
+                                                                                                                                                                                                                                                                                                                                          live in Bookmarksgrove right at the coast of the Semantics
+                </p>
             </div>
-            {% endfor %}
-          </div>
         </div>
-        {% endif %}
-      </div>
+        <div class="row">
+            <div class="col-md-6">
+                {% if site.data.funfacts.size > 0 %}
+                    <div class="block">
+                        {% for ff in site.data.funfacts %}
+                            <ul class="counter-box clearfix">
+                                <li>
+                                    <div class="block">
+                                        <i class="{{ ff.icon }}"></i>
+                                        <h4 class="counter">{{ ff.counter }}</h4>
+                                        <span>{{ ff.text }}</span>
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+            </div>
+            <div class="col-md-6">
+                {% if site.data.testimonials.size > 0 %}
+                    <div class="testimonial-carousel">
+                        <div class="owl-carousel" id="testimonial-slider">
+                            {% for tm in site.data.testimonials %}
+                                <div>
+                                    <img alt="IMG" src="img/cotation.png"/>
+                                    <p>{{ tm.testimonial }}</p>
+                                    <div class="user">
+                                        <img src="{{ tm.image }}" alt="Pepole"/>
+                                        <p>
+                                            <span>{{ tm.name }}</span>
+                                            {{ tm.title }}</p>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
     </div>
-  </div>
 </section>
