@@ -1,6 +1,13 @@
 ---
 layout: post
-title: Én példa postom
+title: Én példa postom CIME
+subTitle: AlCime
+downloadables:
+  - CEO_vision_23052019_hu.pdf
+  - CEO_vision_23052019_en.pdf
+img: balazs_647x392.png
+link:
+youtubeId: -iZjUsDzSu0
 ---
 
 Magyar content

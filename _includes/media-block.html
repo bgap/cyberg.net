@@ -1,0 +1,7 @@
+{% if include.youtubeId %}
+    <!-- YOUTUBE PLAYER -->
+    {%include youtube-player.html id=include.youtubeId width="200" height="100" %}
+{% elsif include.img %}
+    <!-- IMG -->
+    <img width="{{include.width}}" height="{{include.height}}" src="{{ site.baseurl_root }}/assets/img/{{include.img}}"/>
+{% endif %}
