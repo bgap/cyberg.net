@@ -1,20 +1,26 @@
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<title>
+    {% if page.title %}
+        {{ page.title }}
+    {% else %}
+        {{ site.title }}
+    {% endif %}
+</title>
+<meta content="" name="description">
+<meta content="width=device-width, initial-scale=1" name="viewport">
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 <!-- CSS -->
-<link rel="stylesheet" href={{ "/css/owl.carousel.css" | prepend: site.baseurl_root }} />
-<link rel="stylesheet" href={{ "/css/bootstrap.min.css" | prepend: site.baseurl_root }} />
-<link rel="stylesheet" href={{ "/css/font-awesome.min.css" | prepend: site.baseurl_root }} />
-<link rel="stylesheet" href={{ "/css/airspace.css"  | prepend: site.baseurl_root }}/>
-<link rel="stylesheet" href={{ "/css/style.css"  | prepend: site.baseurl_root }}/>
-<link rel="stylesheet" href={{ "/css/ionicons.min.css" | prepend: site.baseurl_root }} />
-<link rel="stylesheet" href={{ "/css/animate.css"  | prepend: site.baseurl_root }}/>
-<link rel="stylesheet" href={{ "/css/responsive.css"  | prepend: site.baseurl_root }}/>
-<link rel="stylesheet" href={{ "/css/syntax.css"  | prepend: site.baseurl_root }}/>
+<link rel="stylesheet" href={{ "/css/owl.carousel.css" | prepend: site.baseurl_root }}>
+<link rel="stylesheet" href={{ "/css/bootstrap.min.css" | prepend: site.baseurl_root }}>
+<link rel="stylesheet" href={{ "/css/font-awesome.min.css" | prepend: site.baseurl_root }}>
+<link rel="stylesheet" href={{ "/css/airspace.css" | prepend: site.baseurl_root }}>
+<link rel="stylesheet" href={{ "/css/style.css" | prepend: site.baseurl_root }}>
+<link rel="stylesheet" href={{ "/css/ionicons.min.css" | prepend: site.baseurl_root }}>
+<link rel="stylesheet" href={{ "/css/animate.css" | prepend: site.baseurl_root }}>
+<link rel="stylesheet" href={{ "/css/responsive.css" | prepend: site.baseurl_root }}>
+<link rel="stylesheet" href={{ "/css/syntax.css" | prepend: site.baseurl_root }}>
 
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
