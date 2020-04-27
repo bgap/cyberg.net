@@ -1,6 +1,6 @@
 global:
-  hungarien: Magyar
-  english: Angol
+  hungarian: Hungarian
+  english: English
 sections:
   intro:
     title: MAGYARCIM A CyBERG-ben azon dolgozunk, hogy a virtuális világ valósabb legyen
