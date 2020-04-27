@@ -1,269 +1,289 @@
 ---
 layout: page
-title: Airspace
+title: CyBERG Corp. Plc.
 permalink: /
 ---
 
 <!-- Slider Start -->
 <section id="slider">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="block">
-                    <div>
-                        <h2 class="animated fadeInUp">
-                            {% t sections.intro.title %}
-                        </h2>
+  <div class="container ">
+    <div class="col-sm-12 col-md-12">
+      <div class="col-md-8 col-sm-12">
+        <div class="block">
+          <div>
+            <h2 class="animated fadeInUp">
+              {% t sections.intro.title %}
+            </h2>
 
-                        <p class="animated fadeInUp">
-                            {% t sections.intro.content %}
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img class="cyberg-3fa-mockup animated fadeInUp" src="{{ site.baseurl }}/img/cyberg/mockup_iphonex.png"/>
-            </div>
+            <p class="animated fadeInUp">
+              {% t sections.intro.content %}
+
+            </p>
+          </div>
         </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img
+          class="cyberg-3fa-mockup animated fadeInUp"
+          src="{{ site.baseurl }}/img/cyberg/mockup_iphonex.png"
+        />
+      </div>
     </div>
+  </div>
 </section>
+
 <!-- Wrapper Start -->
 <section id="ceo">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 col-sm-12">
-                <div class="block cyberg-ceo-img">
-                    <img alt="Img" src="img/cyberg/balazs_647x392.png"/>
-                </div>
-            </div>
-
-            <div class="col-md-7 col-sm-12">
-                <div class="block">
-                    <div class="section-title">
-                        <h2>BALÁZS RÓZSA</h2>
-                        <p>
-                            WE PROVIDE FOOD FOR FREE
-                        </p>
-                    </div>
-                    <p>
-                        Beyond good food, through our platform we're upselling premium
-                                                                                                                                                                                                                                                                                                                                                                                                            services, digital content, games and apps in the future. Thousands
-                                                                                                                                                                                                                                                                                                                                                                                                            or tens of thousands of restaurants with this hybrid model make
-                                                                                                                                                                                                                                                                                                                                                                                                            massively more money from digital than meals. The extra revenue we
-                                                                                                                                                                                                                                                                                                                                                                                                            earn can be reinvested in the network. So, we can provide food for
-                                                                                                                                                                                                                                                                                                                                                                                                            free...
-                    </p>
-                    <a href="https://cybergcorp.com/tmpls/doc/CEO_vision_23052019_en.pdf">CEO's vision
-                        <i class="fa fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-12">
+        <div class="block cyberg-ceo-img">
+          <img src="img/cyberg/balazs_647x392.png" alt="Img" />
         </div>
+      </div>
+
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>{% t sections.ceo.title %}
+            </h2>
+            <p>
+              {% t sections.ceo.subtitle %}
+            </p>
+          </div>
+          <p>
+            {% t sections.ceo.content %}
+          </p>
+          <a href="https://cybergcorp.com/tmpls/doc/CEO_vision_23052019_en.pdf"
+            > {% t sections.ceo.link %} <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-POSTS
-<!-- <ul>
-  {% for post in site.posts %}
-  <li>
-    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul> -->
-
-{% for post in site.posts %}
-    {{ post.title }}
-    {% assign evenOdd = forloop.index | modulo: 2 %}
-    {% include post-intro.html post=post mediaPosition=evenOdd %}
-{% endfor %}
+<section id="company">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2> {% t sections.company.title %}</h2>
+          </div>
+          <p>
+            {% t sections.company.content %}
+          </p>
+          <a href="https://bse.hu/pages/company_profile/$security/CYBERG"
+            >{% t sections.company.link %}
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="img/cyberg/cy_xtrend_698x392.png" alt="Img" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="feature">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-6">
-                <h2>SOFTWARE ENGINEERING TEAM</h2>
-                <p>
-                    In 2020 Bitgap Ltd. became a 100% subsidiary so a highly skilled
-                                                                                                                                                                                                                                                                                                                                          software engineer team has joined CYBERG. The professional team mainly
-                                                                                                                                                                                                                                                                                                                                          has been engaged in fintech and logistic solutions based on blockchain
-                                                                                                                                                                                                                                                                                                                                          and cloud technologies, but have also established digital sales
-                                                                                                                                                                                                                                                                                                                                          systems of high conversion potential, enhanced with gaming elements,
-                                                                                                                                                                                                                                                                                                                                          artificial intelligence and machine learning. For a key client
-                                                                                                                                                                                                                                                                                                                                          (PayCap) they have recently developed a global payment system.
-                                                                                                                                                                                                                                                                                                                                          Earlier, Bitgap worked for Silicon Valley companies like First
-                                                                                                                                                                                                                                                                                                                                          Foundry, GarageGames, and Disney Interactive.
-                </p>
-            </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-6">
+        <h2>{% t sections.team.title %}</h2>
+        <p>
+          {% t sections.company.content %}
+        </p>
+      </div>
     </div>
+  </div>
 </section>
 
 <!-- Service Start -->
 <section id="service">
-    <div class="container">
-        <div class="row">
-            <div class="section-title">
-                <h2>Our Services</h2>
-                <p>
-                    Far far away, behind the word mountains, far from the countries
-                                                                                                                                                                                                                                                                                                                                          Vokalia and Consonantia, there live the blind texts. Separated they
-                                                                                                                                                                                                                                                                                                                                          live in Bookmarksgrove right at the coast of the Semantics
-                </p>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        <div class="service-item">
+          <img class="cyberg-coffeeshop" src="img/cyberg/CSC-WEB-WELCOME-DEV-02-1.jpg"></i>
+          <h4>Coffeeshop Company is the first mover to launch 3FA model
+          </h4>
+          <span>01 April 2020</span>
+          <p>
+            The two companies agreed CYBERG supports Coffeeshop Company in establishing additional digital services and revenue sources and launching the 3FA model in their shops. The Austrian based franchise network has more than 200 units around the globe now. 
+          </p>
+          <a href="http://www.coffeeshopcompany.com/">Coffeeshop Company <i class="fa fa-arrow-right"></i></a>
         </div>
-        <div class="row">
-            <div class="col-sm-6 col-md-3">
-                <div class="service-item">
-                    <i class="icon ion-coffee"></i>
-                    <h4>Branding</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="service-item">
-                    <i class="ion-compass"></i>
-                    <h4>Web Design</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="service-item">
-                    <i class="ion-image"></i>
-                    <h4>App Design</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="service-item">
-                    <i class="ion-bug"></i>
-                    <h4>Start Up</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="service-item">
-                    <i class="ion-headphone"></i>
-                    <h4>Logo Design</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="service-item">
-                    <i class="ion-leaf"></i>
-                    <h4>Development</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="service-item">
-                    <i class="ion-planet"></i>
-                    <h4>Brand Identity</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="service-item">
-                    <i class="ion-earth"></i>
-                    <h4>Brand Identity</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                                                                                                                                                                                                                                                                                                                                                                            eiusmod tempor incididunt ut
-                    </p>
-                </div>
-            </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4">
+        <div class="service-item">
+          <img class="cyberg-coffeeshop" src="img/cyberg/kalliwoda.jpg"></i>
+
+          <h4>The most recent comprehensive  update from Dr. Kalliwoda Research
+          </h4>
+          <span>6 Feb 2020</span>
+          <p>
+            Download here the new update about CYBERG from Dr. Kalliwoda Research GmbH, the independent German supplier of equity and bond research specialized for Mid- and Small-Cap companies.  
+          </p>
+          <a href=" https://webif1.kajahu.com/doc/CYBERG_Corp_Kalliwoda_research_update.pdf">CYBERG research <i class="fa fa-arrow-right"></i> </a>
+
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="service-item">
+          <img class="cyberg-coffeeshop" src="img/cyberg/00000063u212.jpg"></i>
+          <h4>New revenue stream is built by the acquisition of BITGAP</h4>
+          <span>17 January 2020
+          </span>
+          <p>
+            Through the acquisition of BITGAP, a software developing company, CYBERG has established a new revenue stream, added access to a large US network, and built up a significant in-house software engineering capacity. The transaction also facilitates new financing opportunities for CYBERG, such as bank loans and the issuance of corporate bonds.
+          </p>
         </div>
     </div>
 </section>
+
+<section id="downloads">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-12">
+        <div class="block cyberg-ceo-img">
+          <img src="img/cyberg/cy_dl_info_615x392.png" alt="Img" />
+        </div>
+      </div>
+
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2> More to download
+            </h2>
+            <p>
+              url scrolling list comes here
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="kajahu">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>{% t sections.kajahu.title %}
+            </h2>
+          </div>
+          <p>
+            {% t sections.kajahu.content %}
+          </p>
+
+        </div>
+      </div>
+      <!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block iframe-container">
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/-iZjUsDzSu0"></iframe>
+        </div>
+      </div>
+      <!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
+
+<section id="franchise">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>{% t sections.franchise.title %}
+            </h2>
+          </div>
+          <p>
+            {% t sections.franchise.content %}
+          </p>
+          <a href="https://fgdltd.typeform.com/to/QRmCdT"
+          >{% t sections.franchise.link %}
+          <i class="fa fa-arrow-right"></i>
+        </a>
+        </div>
+      </div>
+      <div class="col-md-8 col-sm-12">
+        <div class="block">
+          <img src="img/cyberg/cy_fr_circles_696x155.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Call to action Start -->
 <section id="call-to-action">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="block">
-                    <h2>We design delightful digital experiences.</h2>
-                    <p>
-                        Read more about what we do and our philosophy of design. Judge for
-                                                                                                                                                                                                                                                                                                                                                                                                            yourself The work and results we’ve achieved for other clients, and
-                                                                                                                                                                                                                                                                                                                                                                                                            meet our highly experienced Team who just love to design.
-                    </p>
-                    <a class="btn btn-default btn-call-to-action" href="#">Tell Us Your Story</a>
-                </div>
-            </div>
+
+  <div class="container">
+
+    <div class="cyberg-articles-container">
+
+      <div class="col-sm-6 col-md-2 col-md-offset-1">
+        <div class="cyberg-articles" >
+          <img class="cyberg-articles-img"   src="img/cyberg/cy_empre_500x300.png"></i>
+          <p class="cyberg-articles-lang"><i class="fa fa-flag"></i> español
+          </p>
+          <a href="https://www.emprendedores.es/franquicias/a27581135/kajahu-receta-exitosa-fusionar-comida-y-sobre-todo-tecnologia/">Reading <i class="fa fa-arrow-right"></i></a>
         </div>
-    </div>
-</section>
-<!-- Content Start -->
-<section id="testimonial">
-    <div class="container">
-        <div class="row">
-            <div class="section-title text-center">
-                <h2>Fun Facts About Us</h2>
-                <p>
-                    Far far away, behind the word mountains, far from the countries
-                                                                                                                                                                                                                                                                                                                                          Vokalia and Consonantia, there live the blind texts. Separated they
-                                                                                                                                                                                                                                                                                                                                          live in Bookmarksgrove right at the coast of the Semantics
-                </p>
-            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-2">
+        <div class="cyberg-articles" >
+          <img class="cyberg-articles-img"  src="img/cyberg/cy_budapest_journal_500x300.png"></i>
+          <p class="cyberg-articles-lang"> <i class="fa fa-flag"></i> english
+          </p>
+          <a href="https://bbj.hu/budapest/kajahu-is-food-together-_142659">Reading <i class="fa fa-arrow-right"></i></a>
+
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                {% if site.data.funfacts.size > 0 %}
-                    <div class="block">
-                        {% for ff in site.data.funfacts %}
-                            <ul class="counter-box clearfix">
-                                <li>
-                                    <div class="block">
-                                        <i class="{{ ff.icon }}"></i>
-                                        <h4 class="counter">{{ ff.counter }}</h4>
-                                        <span>{{ ff.text }}</span>
-                                    </div>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                {% endif %}
-            </div>
-            <div class="col-md-6">
-                {% if site.data.testimonials.size > 0 %}
-                    <div class="testimonial-carousel">
-                        <div class="owl-carousel" id="testimonial-slider">
-                            {% for tm in site.data.testimonials %}
-                                <div>
-                                    <img alt="IMG" src="img/cotation.png"/>
-                                    <p>{{ tm.testimonial }}</p>
-                                    <div class="user">
-                                        <img src="{{ tm.image }}" alt="Pepole"/>
-                                        <p>
-                                            <span>{{ tm.name }}</span>
-                                            {{ tm.title }}</p>
-                                    </div>
-                                </div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                {% endif %}
-            </div>
+      </div>
+
+      <div class="col-sm-6 col-md-2">
+        <div class="cyberg-articles" >
+          <img class="cyberg-articles-img"  src="img/cyberg/cy_bvz_500x300.png"></i>
+          <p class="cyberg-articles-lang"><i class="fa fa-flag"></i> deutsch</p>
+          <a href="https://www.bvz.at/neusiedl/neueroeffnung-restaurant-kajahu-im-fashion-outlet-parndorf-parndorf-gastronomie-neueroeffnung-fashion-outlet-parndorf-kajahu-137596025">Reading <i class="fa fa-arrow-right"></i></a>       
         </div>
-    </div>
+       </div>
+
+      <div class="col-sm-6 col-md-2">
+        <div class="cyberg-articles">
+          <img class="cyberg-articles-img"  src="img/cyberg/cy_forbes_500x300.png"></i>
+          <p class="cyberg-articles-lang"><i class="fa fa-flag"></i> magyar</p>
+          <a href="https://forbes.hu/uzlet/mostantol-barki-beszallhat-a-tozsden-a-magyar-cegbe-ami-high-tech-gyorsettermekkel-szorna-tele-a-vilagot-kajahu-tozsde-2019/">Reading <i class="fa fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+
+      <div class="col-sm-6 col-md-2">
+        <div class="cyberg-articles" >
+          <img class="cyberg-articles-img" src="img/cyberg/cy_napi_500x300.png"></i>
+          <p class="cyberg-articles-lang"><i class="fa fa-flag"></i> magyar</p>
+          <a href="https://www.napi.hu/magyar_gazdasag/megerkezett-a-kajahu-a-tozsdere.676504.html">Reading <i class="fa fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+
+  </div>
+  </div>
+  <div class="cyberg-awards">
+    <div class="cyberg-mastercard col-sm-12 col-md-12" >
+      ✪ MASTERCARD – Retailer of the Year 2017
+    </div> 
+    <div class="col-sm-12 col-md-12">
+      ✪ DreamJob Award 2017, 2018
+    </div>    
+  </div>
 </section>
