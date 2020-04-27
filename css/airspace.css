@@ -192,29 +192,29 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 
-#stock-market {
+#kajahu {
   padding: 50px 0;
   background: #212327;
   color: white;
 }
-#stock-market a {
+#kajahu a {
   font-weight: bold;
 }
-#stock-market .block h2 {
+#kajahu .block h2 {
   line-height: 27px;
   margin: 0;
 }
-#stock-market .block p {
+#kajahu .block p {
   color: #999;
   padding-top: 20px;
 }
-#stock-market .block img {
+#kajahu .block img {
   width: 100%;
 }
-#stock-market .section-title {
+#kajahu .section-title {
   margin-bottom: 0px;
 }
-#stock-market .section-title p {
+#kajahu .section-title p {
   padding-top: 20px;
 }
 
@@ -241,12 +241,39 @@ font header .navbar-default .navbar-nav li a:hover {
 #franchise .section-title p {
   padding-top: 20px;
 }
+
+#downloads {
+  background: #212327;
+  color: white;
+  padding: 50px 0;
+}
+#downloads a {
+  font-weight: bold;
+}
+#downloads .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+}
+#downloads .block p {
+  color: #7b7b7b;
+  padding-top: 20px;
+}
+#downloads .block img {
+  width: 100%;
+}
+#downloads .section-title {
+  margin-bottom: 0px;
+}
+#downloads .section-title p {
+  padding-top: 20px;
+}
 /*--
 	service Start
 --*/
 #service {
   text-align: center;
-  padding: 90px 0;
+  padding: 90px 0 0;
 }
 #service .service-item {
   padding-bottom: 30px;
