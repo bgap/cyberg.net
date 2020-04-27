@@ -287,21 +287,24 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: bold;
   padding-left: 10px;
 }
-#service span {
-  color: #888;
+
+#service a {
   padding-top: 20px;
   display: flex;
   padding-left: 10px;
   font-weight: bold;
   color: #428bca;
+  font-size: inherit;
+  display: flex;
+  align-items: center;
 }
-#service span i {
-  color: #888;
+#service  i {
   font-size: inherit;
   display: flex;
   padding-left: 5px;
   align-items: center;
   color: #428bca;
+  padding-left: 5px;
 }
 #service .service-item p {
   color: #888;
