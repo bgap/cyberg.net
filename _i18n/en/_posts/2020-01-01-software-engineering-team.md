@@ -1,6 +1,5 @@
 ---
 layout: post
-
 img: sketch014.png
 position: 30
 ---

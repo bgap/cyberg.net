@@ -2,9 +2,9 @@
 layout: post
 title: Balázs Rózsa
 subtitle: We Provide Food For Free
-doc:
-  file: CEO_vision_23052019_en.pdf
-  label: CEO's vision
+docs:
+  - file: CEO_vision_23052019_en.pdf
+    label: CEO's vision
 img: balazs_647x392.png
 position: 10
 ---
