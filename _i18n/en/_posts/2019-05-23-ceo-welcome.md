@@ -5,11 +5,6 @@ subtitle: We Provide Food For Free
 docs:
   - file: CEO_vision_23052019_en.pdf
     label: CEO's vision
-links:
-  - url: FooURL
-    label: See more details on the BSE website
-  - url: BArURL
-    label: See more details on the BSE website02
 img: balazs_647x392.png
 position: 10
 ---
