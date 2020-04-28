@@ -14,7 +14,7 @@
 	Common Css
 --*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -57,7 +57,7 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
+  font-family: "Volkhov", serif;
   font-style: italic;
   color: #666;
 }
@@ -98,7 +98,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider {
   /* background: url("../img/slider-bg.jpg") no-repeat; */
-  background: url('/img/cyberg/cy_header_1920x1080.jpg') no-repeat;
+  background: url("/img/cyberg/cy_header_1920x1080.jpg") no-repeat;
 
   background-size: cover;
   background-attachment: fixed;
@@ -107,7 +107,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #slider:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -122,7 +122,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #e3e3e4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -136,7 +136,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block p {
   font-size: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 /*--
@@ -298,7 +298,7 @@ font header .navbar-default .navbar-nav li a:hover {
   display: flex;
   align-items: center;
 }
-#service  i {
+#service i {
   font-size: inherit;
   display: flex;
   padding-left: 5px;
@@ -319,7 +319,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url('/img/call-to-action-bg.jpg') no-repeat;
+  background: url("/img/call-to-action-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -331,7 +331,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 20px;
 }
 #call-to-action:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -364,8 +364,8 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url('/img/featue-bg.jpg');
-  /* background: url('/img/cyberg/dusan-smetana-AIdplNT2ZIM-unsplash.jpg'); */
+  background: url("/img/featue-bg.jpg");
+  /* background: url("/img/cyberg/dusan-smetana-AIdplNT2ZIM-unsplash.jpg"); */
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -493,7 +493,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #global-header {
   /* background: url("../img/slider-bg.jpg") no-repeat; */
-  background: url('/img/cyberg/cy_header_1920x1080.jpg') no-repeat;
+  background: url("/img/cyberg/cy_header_1920x1080.jpg") no-repeat;
 
   background-size: cover;
   padding-top: 150px;
@@ -502,7 +502,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-attachment: fixed;
 }
 #global-header:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -565,9 +565,9 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active:before {
-  content: '\f0d7';
+  content: "\f0d7";
   position: absolute;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   bottom: -18px;
   font-size: 30px;
   width: 20px;
@@ -584,9 +584,9 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: all 0.4s ease-in-out;
 }
 #portfolio-work .block .portfolio-menu ul li:hover:before {
-  content: '\f0d7';
+  content: "\f0d7";
   position: absolute;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   bottom: -18px;
   font-size: 30px;
   width: 20px;
@@ -704,7 +704,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #wrapper-work ul li .items-text h2:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -744,7 +744,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider-contact {
   /* background: url("../img/slider-bg.jpg") no-repeat; */
-  background: url('/img/cyberg/cy_header_1920x1080.jpg') no-repeat;
+  background: url("/img/cyberg/cy_header_1920x1080.jpg") no-repeat;
 
   background-size: cover;
   padding-top: 150px;
@@ -752,7 +752,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #slider-contact:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -769,7 +769,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-left: 90px;
 }
 #slider-contact .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -779,7 +779,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider-contact .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
@@ -819,7 +819,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #47424c;
   border: none;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
 /*--
@@ -864,7 +864,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #contact-box .block h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #000;
   font-size: 28px;
@@ -977,7 +977,7 @@ footer .container {
   padding-right: 40px;
 }
 
-.cyberg-coffeeshop {
+.service-item img {
   height: 20rem;
   width: 34rem;
 }
