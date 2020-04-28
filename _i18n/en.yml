@@ -14,17 +14,8 @@ sections:
       products/services in the physical shops.
   download:
     title: More to download
-  # articles:
-  #   -lang: español
-  #   'link': Reading
-  #   -lang: english
-  #   'link': Reading
-  #   -lang: deutsch
-  #   'link': Reading
-  #   -lang: magyar
-  #   'link': Reading
-  #   -lang: magyar
-  #   'link': Reading
-  # awards:
-  #   -title: ✪ MASTERCARD – Retailer of the Year 2017
-  #   -title: ✪ DreamJob Award 2017, 2018
+  articles:
+    reading: Reading
+  awards:
+    mastercard: ✪ MASTERCARD – Retailer of the Year 2017
+    dreamjob: ✪ DreamJob Award 2017, 2018
