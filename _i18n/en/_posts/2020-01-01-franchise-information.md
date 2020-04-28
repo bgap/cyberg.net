@@ -1,9 +1,9 @@
 ---
 layout: post
 img: cy_fr_circles_696x155.png
-link:
-  url: https://fgdltd.typeform.com/to/QRmCdT
-  label: Franchise brochure
+links:
+  - url: https://fgdltd.typeform.com/to/QRmCdT
+    label: Franchise brochure
 position: 50
 ---
 

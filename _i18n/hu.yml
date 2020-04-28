@@ -3,51 +3,21 @@ global:
   english: English
 sections:
   intro:
-    title: A CYBERG-BEN AZON DOLGOZUNK, HOGY A VIRTUÁLIS VILÁG VALÓSABB LEGYEN
-    content: A CyBERG Corp. Nyrt. a 3FA (Ingyen étel/ital mindenhol) szektorokat összekötő hibrid modell fejlesztője. Az a víziónk, hogy felépítünk egy globális digitális közösséget valós találkozási pontokon keresztül, ahol az új technológiákkal támogatott fizikai szűrők biztosítják az adatok tisztaságát, és kiszűrik a hamis profilokat és valótlan információkat. A tiszta adatért cserébe az üzletekben ingyen adjuk az alapvető termékeket és szolgáltatásokat. 
-  ceo:
-    title: RÓZSA BALÁZS
-    subtitle: INGYEN ADJUK AZ ÉTELT
-    content: A kiváló ételek és italok mellett platformunkon a jövőben prémium szolgáltatásokat, digitális tartalmakat, játékokat és egyéb alkalmazásokat is értékesítünk. Több ezer vagy több tízezer étterem vagy kávézó ezzel a hibrid modellel lényegesen több bevételt tud termelni a digitális csatornából, mint az alaptermékekből. ételekből. Az extra bevételt visszaforgatjuk a z éttermi hálózat finanszírozásába, így ingyen tudjuk adni az ételt...
-    link: Vezérigazgatói vízió
-  company:
-    title: CYBERG A TŐZSDÉN
-    content: A társaság részvényei 2018. október 19-én kerültek bevezetésre a Budapest Értéktőzsde Xtend piacára. Első kereskedési nap 2019. január 10.
-    link: További információk a BÉT honlapján.
-  team: 
-    title: SZOFTVERFEJLESZTŐ CSAPAT
-    content: 2020-ban a Bitgap Kft. 100%-os leányvállalat lett, így egy magasan képzett szoftvermérnöki csapat csatlakozott a CYBERG-hez. A szakemberek eddig többnyire felhő- és blokklánc technológia alapú pénzügyi és logisztikai informatikai fejlesztésekkel foglalkoztak, de készítettek mesterséges intelligencia algoritmusokra, gépi tanulásra és játékelemekre épített, magas konverziót biztosító értékesítési rendszert is. A közelmúltban egy globális digitális fizetési szolgáltatást fejlesztettek kiemelt ügyfelük, a Paycap számára. A Bitgap korábban több Szilícium-völgybéli vállalatnak dolgozott, mint a First Foundry, a GarageGames, és a Disney Interactive.  
-  news:
-    -title: A Coffeeshop Company elsőként vezeti be a 3FA modellt
-    'date': 2020. április 1. 
-    'content': A két cég megállapodott, hogy a CYBERG támogatja a Coffeeshop Company-t új digitális szolgáltatások és bevételi csatornák elindításában, és a bevezeti a 3FA modellt az üzeleteiben. Az osztrák franchise hálózat jelenleg több mint 200 egységgel van jelen a világban. 
-    'link': Coffeeshop Company 
-    -title: A legutóbbi átfogó elemzése Dr. Kalliwoda Research-től
-    'date': 2020. február 6.
-    'content': Itt elérhető a legutóbbi elemzése a CYBERG-ről, amelyet a kis- és középvállalatokra szakosodott német részvény és kötvény elemző cég a Dr. Kalliwoda Research GmbH készített.   
-    'link': CYBERG elemzés 
-    -title: Új bevételi láb épül a BITGAP szoftverfejlesztő cég akvizíciójával
-    'date': 2020. január 17.
-    'content': A BITGAP szoftverfejlesztő cég akvizíciójával új bevételi csatornát, amerikai kapcsolatrendszert, valamint jelentős mérnöki kapacitást is vásárolt a CYBERG. A tranzakcióval olyan új finanszírozási lehetőségek is megnyílnak a társaság számára, mint a vállalati kötvény vagy bankhitel.
-    'link': 
-  kajahu: 
-    title: KAJAHU – FOOD TOGETHER
-    content: A CYBERG a KAJAHU közösségi digitális étteremlánc tulajdonosa és fejlesztője. A közös étkezések élménye a régi, de a vendégek új technológiák segítségével kommunikálnak, a rendelések és fizetések mobiltelefonon vagy érintőképernyős asztalokon keresztül zajlanak. Fejlesztőcsapatunk folyamatosan tökéletesíti a hardver és szoftver komponenseket, elemezi az adatokat, és fejleszti/teszteli a 3FA platform innovatív elemeit. A KAJAHU kismértékű saját befektetést igénylő értékesítési rendszerben terjeszkedik a világban. A hibrid üzleti modell az ún fast-casual gasztronómia és a technológiai szektor egyesítéséve újraértelmezi mit jelent egy franchise étteremlánc. A KAJAHU-nak jelenleg 2 egysége van Budapesten.
-  franchise: 
-    title: FRANCHISE INFORMÁCIÓK
-    content: Master franchise partnereket keresünk, akikkel együtt fejleszthetjük a nemzetközi KAJAHU márkát. Ha szeretne kevesebbet kockáztatni, többet keresni, egy globális célért dolgozni és közben szeretné magát jólérezni, csatlakozzon food-tech hibrid franchise hálózatunkhoz!
-    link: Franchise brochure
-  articles:
-    -lang: español
-    'link': Elolvasom
-    -lang: english
-    'link': Elolvasom
-    -lang: deutsch
-    'link': Elolvasom
-    -lang: magyar
-    'link': Elolvasom
-    -lang: magyar
-    'link': Elolvasom
-  awards:
-    -title: ✪ MASTERCARD - Az Év Kereskedője 2017 
-    -title: ✪ Szerethető Munkahely Díj 2017, 2018
+    title: A Cyberg-Ben Azon Dolgozunk, Hogy A Virtuális Világ Valósabb Legyen
+    content: A CyBERG Corp. Nyrt. a 3FA (Ingyen étel/ital mindenhol) szektorokat összekötő hibrid modell fejlesztője. Az a víziónk, hogy felépítünk egy globális digitális közösséget valós találkozási pontokon keresztül, ahol az új technológiákkal támogatott fizikai szűrők biztosítják az adatok tisztaságát, és kiszűrik a hamis profilokat és valótlan információkat. A tiszta adatért cserébe az üzletekben ingyen adjuk az alapvető termékeket és szolgáltatásokat.
+  download:
+    title: Letölthető Információk
+  # articles:
+  #   - lang: español
+  #     link: Elolvasom
+  #   - lang: english
+  #     link: Elolvasom
+  #   - lang: deutsch
+  #     link: Elolvasom
+  #   - lang: magyar
+  #     link: Elolvasom
+  #   - lang: magyar
+  #     link: Elolvasom
+  # awards:
+  #   - title: ✪ MASTERCARD - Az Év Kereskedője 2017
+  #   - title: ✪ Szerethető Munkahely Díj 2017, 2018

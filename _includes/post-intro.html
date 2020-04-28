@@ -31,15 +31,9 @@
                     <!-- EXCEPRT TO SHOW ONLY A PART OF THE CONTENT -->
                     {{ include.post.excerpt | markdownify }}
                 </p>
-                {% if include.post.link %}
-                    <a href="{{ include.post.link.url }}">{{ include.post.link.label }}
-                        <i class="fa fa-arrow-right"></i>
-                    </a>
-                {% elsif include.post.doc %}
-                    <a href="{{ include.post.doc.file }}">{{ include.post.doc.label }}
-                        <i class="fa fa-arrow-right"></i>
-                    </a>
-                {% endif %}
+
+                {% include links.html links=include.post.links %}
+                {% include docs.html docs=include.post.docs %}
             </div>
 
             <!-- MEDIA ON THE RIGTH -->

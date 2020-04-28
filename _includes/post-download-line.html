@@ -1,0 +1,11 @@
+<div class="post-download-line">
+    <i class="fa fa-download"></i>
+    <a href="{{ include.doc.file }}">
+        <span class="date">
+            {% include local-date.html date=include.post.date %}
+        </span>
+        {{ include.post.title }}
+        -
+        {{ include.doc.label }}
+    </a>
+</div>

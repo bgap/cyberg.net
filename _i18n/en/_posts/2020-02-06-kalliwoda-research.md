@@ -1,9 +1,9 @@
 ---
 # layout: news
 title: The most recent comprehensive update from Dr. Kalliwoda Research
-link:
-  url: https://webif1.kajahu.com/doc/CYBERG_Corp_Kalliwoda_research_update.pdf
-  label: CYBERG research
+links:
+  - url: https://webif1.kajahu.com/doc/CYBERG_Corp_Kalliwoda_research_update.pdf
+    label: CYBERG research
 img: kalliwoda.jpg
 categories: [news, highlighted]
 ---
