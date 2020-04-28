@@ -15,7 +15,9 @@ layout: page
                                 By
                                 <span class="bold">{{ page.author }}</span>
                                 on
-                                <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span>
+                                <span class="bold">
+                                    {% include local-date.html date=page.date %}
+                                </span>
                             </p>
                         </div>
                         <hr/>
