@@ -170,15 +170,13 @@ permalink: /
       <div class="col-md-7 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <h2> More to download
-            </h2>
+            <h2>{% t sections.download.title %}</h2>
+
             <p>
-              {% for news in site.categories['news'] %}
-                {% if news.categories contains 'highlighted' %}
-                  <!-- DO NOT SHOW THE HIGHLIGTED IN THE LIST -->
-                {% else %}
-                  {% include news-line.html news=news %}
-                {% endif %}
+              {% for post in site.posts %}
+                {% for doc in post.docs %}
+                  {% include post-download-line.html post=post doc=doc %}
+                {% endfor %}
               {% endfor %}
             </p>
           </div>

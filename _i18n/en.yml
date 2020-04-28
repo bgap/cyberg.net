@@ -3,7 +3,7 @@ global:
   english: Angol
 sections:
   intro:
-    title: WE WORK IN CYBERG TO MAKE THE VIRTUAL WORLD MORE REAL
+    title: We Work In Cyberg To Make The Virtual World More Real
     content: >
       CyBERG Corp. Plc. is the developer of the disruptive 3FA
       (Food/drinks For Free Anywhere) model. Vision is building up a
@@ -12,6 +12,8 @@ sections:
       cleanliness of data and filter out fake profiles and false
       information. As an incentive we offer discounts or even free
       products/services in the physical shops.
+  download:
+    title: More to download
   # articles:
   #   -lang: español
   #   'link': Reading
