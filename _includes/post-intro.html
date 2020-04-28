@@ -1,11 +1,18 @@
+<!-- Could be used like this, for generated even-odd mediaPosition
+  % assign evenOdd = forloop.index | modulo: 2 %
+  % include post-intro.html post=post mediaPosition=evenOdd %
+-->
+
+
 <section id="company">
+    <!-- TODO: use a more generic class instead of this ID -->
     <div class="container">
         <div class="row">
             <!-- MEDIA ON THE LEFT -->
-            {% if evenOdd == 0 %}
+            {% if include.mediaPosition == 0 or include.mediaPosition == 'left' %}
                 <div class="col-md-5 col-sm-12">
                     <div class="block">
-                        {% include media-block.html youtubeId=include.post.youtubeId img=include.post.img width=200 height=100 %}
+                        {% include media-block.html youtubeId=include.post.youtubeId img=include.post.img %}
                     </div>
                 </div>
             {% endif %}
@@ -16,24 +23,30 @@
                     <div class="section-title">
                         <h2>{{ include.post.title }}</h2>
                     </div>
-                    <div>
-                        <h2>{{ include.post.subTitle }}</h2>
-                    </div>
-                    <p>
-                        <!-- EXCEPRT TO SHOW ONLY A PART OF THE CONTENT -->
-                        {{ include.post.excerpt }}
-                    </p>
+                    <h3>
+                        {{ include.post.subtitle }}
+                    </h3>
+                </div>
+                <p>
+                    <!-- EXCEPRT TO SHOW ONLY A PART OF THE CONTENT -->
+                    {{ include.post.excerpt | markdownify }}
+                </p>
+                {% if include.post.link %}
                     <a href="{{ include.post.link.url }}">{{ include.post.link.label }}
                         <i class="fa fa-arrow-right"></i>
                     </a>
-                </div>
+                {% elsif include.post.doc %}
+                    <a href="{{ include.post.doc.file }}">{{ include.post.doc.label }}
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                {% endif %}
             </div>
 
             <!-- MEDIA ON THE RIGTH -->
-            {% if include.mediaPosition == 1 %}
+            {% if include.mediaPosition == 1 or include.mediaPosition == 'right' %}
                 <div class="col-md-5 col-sm-12">
                     <div class="block">
-                        {% include media-block.html youtubeId=include.post.youtubeId img=include.post.img  width=300 height=500 %}
+                        {% include media-block.html youtubeId=include.post.youtubeId img=include.post.img %}
                     </div>
                 </div>
             {% endif %}

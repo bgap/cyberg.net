@@ -1,0 +1,2 @@
+{% assign post = site.posts | where: "position", include.position | first %}
+{% include post-intro.html post=post mediaPosition=include.mediaPosition %}
