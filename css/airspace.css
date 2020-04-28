@@ -139,138 +139,32 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
-/*--
-	wrapper Start
---*/
-#ceo {
+
+#post-intro {
   padding: 50px 0;
 }
-#ceo a {
+#post-intro a {
   font-weight: bold;
 }
-#ceo .block h2 {
+#post-intro .block h2 {
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
 }
-#ceo .block p {
+#post-intro .block p {
   color: #7b7b7b;
   padding-top: 20px;
 }
-#ceo .block img {
+#post-intro .block img {
   width: 100%;
 }
-#ceo .section-title {
+#post-intro .section-title {
   margin-bottom: 0px;
 }
-#ceo .section-title p {
+#post-intro .section-title p {
   padding-top: 20px;
 }
 
-#company {
-  padding: 50px 0;
-}
-#company a {
-  font-weight: bold;
-}
-#company .block h2 {
-  padding-top: 35px;
-  line-height: 27px;
-  margin: 0;
-}
-#company .block p {
-  color: #7b7b7b;
-  padding-top: 20px;
-}
-#company .block img {
-  width: 100%;
-}
-#company .section-title {
-  margin-bottom: 0px;
-}
-#company .section-title p {
-  padding-top: 20px;
-}
-
-#kajahu {
-  padding: 50px 0;
-  background: #212327;
-  color: white;
-}
-#kajahu a {
-  font-weight: bold;
-}
-#kajahu .block h2 {
-  line-height: 27px;
-  margin: 0;
-}
-#kajahu .block p {
-  color: #999;
-  padding-top: 20px;
-}
-#kajahu .block img {
-  width: 100%;
-}
-#kajahu .section-title {
-  margin-bottom: 0px;
-}
-#kajahu .section-title p {
-  padding-top: 20px;
-}
-
-#franchise {
-  padding: 50px 0;
-}
-#franchise a {
-  font-weight: bold;
-}
-#franchise .block h2 {
-  line-height: 27px;
-  margin: 0;
-}
-#franchise .block p {
-  color: #7b7b7b;
-  padding-top: 20px;
-}
-#franchise .block img {
-  width: 100%;
-}
-#franchise .section-title {
-  margin-bottom: 0px;
-}
-#franchise .section-title p {
-  padding-top: 20px;
-}
-
-#downloads {
-  background: #212327;
-  color: white;
-  padding: 50px 0;
-}
-#downloads a {
-  font-weight: bold;
-}
-#downloads .block h2 {
-  padding-top: 35px;
-  line-height: 27px;
-  margin: 0;
-}
-#downloads .block p {
-  color: #7b7b7b;
-  padding-top: 20px;
-}
-#downloads .block img {
-  width: 100%;
-}
-#downloads .section-title {
-  margin-bottom: 0px;
-}
-#downloads .section-title p {
-  padding-top: 20px;
-}
-/*--
-	service Start
---*/
 #service {
   text-align: center;
   padding: 90px 0 0;
