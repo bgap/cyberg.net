@@ -1,7 +1,6 @@
 ---
 layout: post
 docs:
-  - CEO_vision_23052019_hu.pdf
   - CEO_vision_23052019_en.pdf
 link:
   url: https://bse.hu/pages/company_profile/$security/CYBERG

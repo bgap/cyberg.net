@@ -35,6 +35,8 @@ permalink: /
 <!-- Wrapper Start -->
 {% include post-intro-at-position.html position=10 mediaPosition='left' %}
 {% include post-intro-at-position.html position=20 mediaPosition='right' %}
+{% include post-intro-at-position.html position=30 mediaPosition='left' %}
+
 
 <!-- 
 <section id="ceo">
@@ -106,11 +108,15 @@ permalink: /
   </div>
 </section>
 
-<!-- Service Start -->
+<!-- NEWS Start -->
+
 <section id="service">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-4">
+      {% for news in site.categories['highlighted'] %}
+        {% include news-highlight.html news=news %}
+      {% endfor %}
+      <!-- <div class="col-sm-12 col-md-4">
         <div class="service-item">
           <img class="cyberg-coffeeshop" src="img/cyberg/CSC-WEB-WELCOME-DEV-02-1.jpg"></i>
           <h4>Coffeeshop Company is the first mover to launch 3FA model
@@ -147,7 +153,9 @@ permalink: /
             Through the acquisition of BITGAP, a software developing company, CYBERG has established a new revenue stream, added access to a large US network, and built up a significant in-house software engineering capacity. The transaction also facilitates new financing opportunities for CYBERG, such as bank loans and the issuance of corporate bonds.
           </p>
         </div>
+      </div> -->
     </div>
+  </div>
 </section>
 
 <section id="downloads">
@@ -165,7 +173,13 @@ permalink: /
             <h2> More to download
             </h2>
             <p>
-              url scrolling list comes here
+              {% for news in site.categories['news'] %}
+                {% if news.categories contains 'highlighted' %}
+                  <!-- DO NOT SHOW THE HIGHLIGTED IN THE LIST -->
+                {% else %}
+                  {% include news-line.html news=news %}
+                {% endif %}
+              {% endfor %}
             </p>
           </div>
         </div>

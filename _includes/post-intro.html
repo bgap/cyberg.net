@@ -12,7 +12,7 @@
             {% if include.mediaPosition == 0 or include.mediaPosition == 'left' %}
                 <div class="col-md-5 col-sm-12">
                     <div class="block">
-                        {% include media-block.html youtubeId=include.post.youtubeId img=include.post.img width=200 height=100 %}
+                        {% include media-block.html youtubeId=include.post.youtubeId img=include.post.img %}
                     </div>
                 </div>
             {% endif %}
@@ -29,7 +29,7 @@
                 </div>
                 <p>
                     <!-- EXCEPRT TO SHOW ONLY A PART OF THE CONTENT -->
-                    {{ include.post.excerpt }}
+                    {{ include.post.excerpt | markdownify }}
                 </p>
                 {% if include.post.link %}
                     <a href="{{ include.post.link.url }}">{{ include.post.link.label }}
@@ -46,7 +46,7 @@
             {% if include.mediaPosition == 1 or include.mediaPosition == 'right' %}
                 <div class="col-md-5 col-sm-12">
                     <div class="block">
-                        {% include media-block.html youtubeId=include.post.youtubeId img=include.post.img  width=300 height=500 %}
+                        {% include media-block.html youtubeId=include.post.youtubeId img=include.post.img %}
                     </div>
                 </div>
             {% endif %}
