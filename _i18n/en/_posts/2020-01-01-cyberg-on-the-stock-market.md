@@ -1,10 +1,8 @@
 ---
 layout: post
-docs:
-  - CEO_vision_23052019_en.pdf
-link:
-  url: https://bse.hu/pages/company_profile/$security/CYBERG
-  label: See more details on the BSE website
+links:
+  - url: https://bse.hu/pages/company_profile/$security/CYBERG
+    label: See more details on the BSE website
 img: cy_xtrend_698x392.png
 position: 20
 ---

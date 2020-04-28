@@ -1,0 +1,7 @@
+{% for link in include.links %}
+    <div>
+        <a href="{{ link.url }}">{{ link.label }}
+            <i class="fa fa-arrow-right"></i>
+        </a>
+    </div>
+{% endfor %}

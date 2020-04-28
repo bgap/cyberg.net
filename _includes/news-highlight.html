@@ -2,18 +2,11 @@
     <div class="service-item">
         {% include media-block.html youtubeId=include.news.youtubeId img=include.news.img %}
         <h2>{{ include.news.title }}</h2>
-        <span>{{include.news.date}}</span>
+        {% include local-date.html date=include.news.date %}
         <p>
             {{ include.news.content | markdownify }}
         </p>
-        {% if include.news.link %}
-            <a href="{{ include.news.link.url }}">{{ include.news.link.label }}
-                <i class="fa fa-arrow-right"></i>
-            </a>
-        {% elsif include.news.doc %}
-            <a href="{{ include.news.doc.file }}">{{ include.news.doc.label }}
-                <i class="fa fa-arrow-right"></i>
-            </a>
-        {% endif %}
+        {% include links.html links=include.news.links %}
+        {% include docs.html docs=include.news.docs %}
     </div>
 </div>

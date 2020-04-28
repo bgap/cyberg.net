@@ -1,9 +1,9 @@
 ---
 # layout: news
 title: Coffeeshop Company is the first mover to launch 3FA model
-link:
-  url: http://www.coffeeshopcompany.com/
-  label: Coffeeshop Company
+links:
+  - url: http://www.coffeeshopcompany.com/
+    label: Coffeeshop Company
 img: CSC-WEB-WELCOME-DEV-02-1.jpg
 categories: [news, highlighted]
 ---
