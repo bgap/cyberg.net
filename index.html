@@ -245,64 +245,28 @@ permalink: /
 
 <!-- Call to action Start -->
 <section id="call-to-action">
-
   <div class="container">
-
     <div class="cyberg-articles-container">
 
-      <div class="col-sm-6 col-md-2 col-md-offset-1">
-        <div class="cyberg-articles" >
-          <img class="cyberg-articles-img"   src="img/cyberg/cy_empre_500x300.png"></i>
-          <p class="cyberg-articles-lang"><i class="fa fa-flag"></i> español
-          </p>
-          <a href="https://www.emprendedores.es/franquicias/a27581135/kajahu-receta-exitosa-fusionar-comida-y-sobre-todo-tecnologia/">Reading <i class="fa fa-arrow-right"></i></a>
+      {% for article in site.data.external-articles %}
+        <div class="col-sm-6 col-md-2">
+          <div class="cyberg-articles" >
+            <img class="cyberg-articles-img" src="/assets/img/{{ article.img }}" alt="{{ article.source }}"></i>
+            <p class="cyberg-articles-lang"><i class="fa fa-flag"></i> {{ article.lang }}
+            </p>
+            <a href="{{ article.link }}" aria-label="{{ article.title }}">{% t sections.articles.reading  %} <i class="fa fa-arrow-right"></i></a>
+          </div>
         </div>
-      </div>
-
-      <div class="col-sm-6 col-md-2">
-        <div class="cyberg-articles" >
-          <img class="cyberg-articles-img"  src="img/cyberg/cy_budapest_journal_500x300.png"></i>
-          <p class="cyberg-articles-lang"> <i class="fa fa-flag"></i> english
-          </p>
-          <a href="https://bbj.hu/budapest/kajahu-is-food-together-_142659">Reading <i class="fa fa-arrow-right"></i></a>
-
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-2">
-        <div class="cyberg-articles" >
-          <img class="cyberg-articles-img"  src="img/cyberg/cy_bvz_500x300.png"></i>
-          <p class="cyberg-articles-lang"><i class="fa fa-flag"></i> deutsch</p>
-          <a href="https://www.bvz.at/neusiedl/neueroeffnung-restaurant-kajahu-im-fashion-outlet-parndorf-parndorf-gastronomie-neueroeffnung-fashion-outlet-parndorf-kajahu-137596025">Reading <i class="fa fa-arrow-right"></i></a>       
-        </div>
-       </div>
-
-      <div class="col-sm-6 col-md-2">
-        <div class="cyberg-articles">
-          <img class="cyberg-articles-img"  src="img/cyberg/cy_forbes_500x300.png"></i>
-          <p class="cyberg-articles-lang"><i class="fa fa-flag"></i> magyar</p>
-          <a href="https://forbes.hu/uzlet/mostantol-barki-beszallhat-a-tozsden-a-magyar-cegbe-ami-high-tech-gyorsettermekkel-szorna-tele-a-vilagot-kajahu-tozsde-2019/">Reading <i class="fa fa-arrow-right"></i></a>
-        </div>
-
-      </div>
-
-      <div class="col-sm-6 col-md-2">
-        <div class="cyberg-articles" >
-          <img class="cyberg-articles-img" src="img/cyberg/cy_napi_500x300.png"></i>
-          <p class="cyberg-articles-lang"><i class="fa fa-flag"></i> magyar</p>
-          <a href="https://www.napi.hu/magyar_gazdasag/megerkezett-a-kajahu-a-tozsdere.676504.html">Reading <i class="fa fa-arrow-right"></i></a>
-        </div>
-
-      </div>
-
-  </div>
+      {% endfor %}
+    
+    </div>
   </div>
   <div class="cyberg-awards">
     <div class="cyberg-mastercard col-sm-12 col-md-12" >
-      ✪ MASTERCARD – Retailer of the Year 2017
+      {% t sections.awards.mastercard %}
     </div> 
     <div class="col-sm-12 col-md-12">
-      ✪ DreamJob Award 2017, 2018
+      {% t sections.awards.dreamjob %}
     </div>    
   </div>
 </section>
