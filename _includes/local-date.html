@@ -1,4 +1,4 @@
-<span class="date">
+<p class="date">
     {% if site.lang == 'hu' %}
         {% assign m = post.date | date: "%-m" %}
         {{ post.date | date: "%Y" }}.
@@ -20,4 +20,4 @@
     {% else %}
         {{include.date | date: "%-d %B %Y"}}
     {% endif %}
-</span>
+</p>
