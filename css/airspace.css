@@ -8,13 +8,12 @@
 
 @import url(//fonts.googleapis.com/css?family=Open + Sans:400, 300, 600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400, 100, 300, 500, 700);
-@import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
 /* var text-decoration */
 /*--
 	Common Css
 --*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -23,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -35,7 +34,8 @@ h3 {
 }
 p {
   font-size: 15px;
-  line-height: 28px;
+  line-height: 22px;
+  color: black;
 }
 ul {
   padding: 0;
@@ -57,8 +57,6 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: "Volkhov", serif;
-  font-style: italic;
   color: #666;
 }
 /*--
@@ -98,7 +96,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider {
   /* background: url("../img/slider-bg.jpg") no-repeat; */
-  background: url("/img/cyberg/cy_header_1920x1080.jpg") no-repeat;
+  background: url('/img/cyberg/cy_header_1920x1080.jpg') no-repeat;
 
   background-size: cover;
   background-attachment: fixed;
@@ -107,7 +105,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #slider:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -122,7 +120,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #e3e3e4;
 }
 #slider .block h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -132,145 +130,97 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block h2 {
   margin-top: 50px;
   margin-bottom: 20px;
-  color: #70ab68;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.2em;
 }
 #slider .block p {
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-}
-/*--
-	wrapper Start
---*/
-#ceo {
-  padding: 50px 0;
-}
-#ceo a {
-  font-weight: bold;
-}
-#ceo .block h2 {
-  padding-top: 35px;
-  line-height: 27px;
-  margin: 0;
-}
-#ceo .block p {
-  color: #7b7b7b;
-  padding-top: 20px;
-}
-#ceo .block img {
-  width: 100%;
-}
-#ceo .section-title {
-  margin-bottom: 0px;
-}
-#ceo .section-title p {
-  padding-top: 20px;
-}
-
-#company {
-  padding: 50px 0;
-}
-#company a {
-  font-weight: bold;
-}
-#company .block h2 {
-  padding-top: 35px;
-  line-height: 27px;
-  margin: 0;
-}
-#company .block p {
-  color: #7b7b7b;
-  padding-top: 20px;
-}
-#company .block img {
-  width: 100%;
-}
-#company .section-title {
-  margin-bottom: 0px;
-}
-#company .section-title p {
-  padding-top: 20px;
-}
-
-#kajahu {
-  padding: 50px 0;
-  background: #212327;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 0;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
   color: white;
 }
-#kajahu a {
-  font-weight: bold;
-}
-#kajahu .block h2 {
-  line-height: 27px;
-  margin: 0;
-}
-#kajahu .block p {
-  color: #999;
-  padding-top: 20px;
-}
-#kajahu .block img {
-  width: 100%;
-}
-#kajahu .section-title {
-  margin-bottom: 0px;
-}
-#kajahu .section-title p {
-  padding-top: 20px;
-}
 
-#franchise {
+#post-intro {
   padding: 50px 0;
 }
-#franchise a {
+#post-intro a {
   font-weight: bold;
+  color: #b17524;
 }
-#franchise .block h2 {
-  line-height: 27px;
+#post-intro .block h2 {
+  padding-top: 35px;
+  line-height: 20px;
   margin: 0;
+  color: black;
 }
-#franchise .block p {
+#post-intro .block h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #b17524;
+  font-size: large;
+}
+#post-intro .block p {
   color: #7b7b7b;
   padding-top: 20px;
+  color: black;
 }
-#franchise .block img {
+#post-intro .block img {
   width: 100%;
 }
-#franchise .section-title {
+#post-intro .section-title {
   margin-bottom: 0px;
 }
-#franchise .section-title p {
+#post-intro .section-title p {
   padding-top: 20px;
 }
 
 #downloads {
-  background: #212327;
-  color: white;
   padding: 50px 0;
+  background: #212327;
 }
-#downloads a {
-  font-weight: bold;
-}
+
 #downloads .block h2 {
   padding-top: 35px;
-  line-height: 27px;
+  line-height: 20px;
   margin: 0;
+  color: white;
+  padding-bottom: 20px;
 }
+
 #downloads .block p {
-  color: #7b7b7b;
+  color: white;
   padding-top: 20px;
 }
 #downloads .block img {
   width: 100%;
 }
-#downloads .section-title {
-  margin-bottom: 0px;
-}
+
 #downloads .section-title p {
-  padding-top: 20px;
+  padding-top: 0px;
+  margin: 0;
 }
-/*--
-	service Start
---*/
+.post-download-line {
+  display: flex;
+  padding-bottom: 10px;
+}
+.post-download-line .download-icon {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.post-download-line .doc-label {
+  display: flex;
+}
+.post-download-line .doc-label .date {
+  color: #b17524 !important;
+  padding-right: 3px;
+}
+
 #service {
   text-align: center;
   padding: 90px 0 0;
@@ -279,21 +229,19 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 30px;
 }
 
-#service .service-item h4 {
-  padding-top: 20px;
-  margin: 0;
-  color: #666;
+#service .service-item h2 {
   text-align: left;
-  font-weight: bold;
   padding-left: 10px;
+  font-size: large;
+  font-weight: bold;
+  color: black;
 }
-
 #service a {
   padding-top: 20px;
   display: flex;
   padding-left: 10px;
   font-weight: bold;
-  color: #428bca;
+  color: #b17524;
   font-size: inherit;
   display: flex;
   align-items: center;
@@ -303,23 +251,25 @@ font header .navbar-default .navbar-nav li a:hover {
   display: flex;
   padding-left: 5px;
   align-items: center;
-  color: #428bca;
+  color: #b17524;
   padding-left: 5px;
 }
 #service .service-item p {
-  color: #888;
-  padding-top: 20px;
+  padding-top: 5px;
   margin: 0;
   font-size: 14px;
-  line-height: 1.8;
+  line-height: 1.2;
   text-align: left;
   padding-left: 10px;
+  font-size: medium;
+  color: black;
 }
+
 /*--
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("/img/call-to-action-bg.jpg") no-repeat;
+  background: url('/img/call-to-action-bg.jpg') no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -331,7 +281,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 20px;
 }
 #call-to-action:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -364,7 +314,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("/img/featue-bg.jpg");
+  background: url('/img/featue-bg.jpg');
   /* background: url("/img/cyberg/dusan-smetana-AIdplNT2ZIM-unsplash.jpg"); */
   background-position: 50% 94px;
   width: 100%;
@@ -493,7 +443,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #global-header {
   /* background: url("../img/slider-bg.jpg") no-repeat; */
-  background: url("/img/cyberg/cy_header_1920x1080.jpg") no-repeat;
+  background: url('/img/cyberg/cy_header_1920x1080.jpg') no-repeat;
 
   background-size: cover;
   padding-top: 150px;
@@ -502,7 +452,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-attachment: fixed;
 }
 #global-header:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -565,9 +515,9 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active:before {
-  content: "\f0d7";
+  content: '\f0d7';
   position: absolute;
-  font-family: "FontAwesome";
+  font-family: 'FontAwesome';
   bottom: -18px;
   font-size: 30px;
   width: 20px;
@@ -584,9 +534,9 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: all 0.4s ease-in-out;
 }
 #portfolio-work .block .portfolio-menu ul li:hover:before {
-  content: "\f0d7";
+  content: '\f0d7';
   position: absolute;
-  font-family: "FontAwesome";
+  font-family: 'FontAwesome';
   bottom: -18px;
   font-size: 30px;
   width: 20px;
@@ -704,7 +654,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #wrapper-work ul li .items-text h2:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -744,7 +694,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider-contact {
   /* background: url("../img/slider-bg.jpg") no-repeat; */
-  background: url("/img/cyberg/cy_header_1920x1080.jpg") no-repeat;
+  background: url('/img/cyberg/cy_header_1920x1080.jpg') no-repeat;
 
   background-size: cover;
   padding-top: 150px;
@@ -752,7 +702,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #slider-contact:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -769,7 +719,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-left: 90px;
 }
 #slider-contact .block h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -779,7 +729,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider-contact .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
@@ -819,7 +769,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #47424c;
   border: none;
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 /*--
@@ -864,7 +814,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #contact-box .block h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #000;
   font-size: 28px;
@@ -971,11 +921,6 @@ footer .container {
 .cyberg-carousel-content {
   width: 100%;
 }
-.cyberg-ceo-img {
-  padding-top: 35px;
-  padding-left: 0px !important;
-  padding-right: 40px;
-}
 
 .service-item img {
   height: 20rem;
@@ -1017,4 +962,11 @@ footer .container {
   right: 0;
   width: 100%;
   height: 100%;
+}
+.date {
+  color: #cad0d3;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
 }
