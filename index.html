@@ -40,10 +40,11 @@ permalink: /
 <section id="service">
   <div class="container">
     <div class="row">
-      {% for news in site.categories['highlighted'] %}
-        {% include news-highlight.html news=news %}
+      {% for news in site.categories['news'] %}
+        {% if news.tags contains 'highlighted' %}
+          {% include news-highlight.html news=news %}
+        {% endif %}
       {% endfor %}
-     
     </div>
   </div>
 </section>
@@ -79,7 +80,6 @@ permalink: /
 
 {% include post-intro-at-position.html position=40 mediaPosition='right' %}
 {% include post-intro-at-position.html position=50 mediaPosition='right' %}
-
 
 
 <section id="call-to-action">
