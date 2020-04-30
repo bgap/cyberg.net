@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1"/>
+<meta http-equiv="Cache-Control" content="no-store"/>
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" type="text/css" href="/tmpls/static/kajahu.css?2548176"/>
+<link rel="SHORTCUT ICON" href="/tmpls/images/favicon.ico"/>
+<script content="text/html; charset=utf-8" type="text/javascript" src="/tmpls/static/_param.js?3364820"></script>
+<script content="text/html; charset=utf-8" type="text/javascript" src="/tmpls/static/_config.js?2837455"></script>
+<script content="text/html; charset=utf-8" type="text/javascript" src="/tmpls/static/kajahu.js?9849645"></script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js"></script>
+</head>
+<body>
+<div id="divBG0" class="NN"> </div>
+<div id="divBG1" class="NN">
+<div id="divBG1Top"> </div>
+</div>
+<div id="divBG2" class="NN"> </div>
+<div id="divAll">
+<div id="divContent">
+<div id="divMf" class="NN">
+<div id="divMfSplash">
+<div id="divMfSplashTop">
+<div id="divMfSplashLogo"><img src="/tmpls/images/logo_black_423x510.png"/></div>
+<div id="divMfSplashHi"> </div>
+<div id="divMfSplashDesc"> </div>
+<div id="divMfCode" class="NN">
+<div id="divMfCodeDesc"> </div>
+<div id="divMfCodeInput" class="divStringField">
+<input id="inputMfCode" name="inputMfCode" maxlength="6" type="number"/>
+</div>
+</div>
+</div>
+<div id="divMfSplashNext" onclick="rootModule.clkNext()"><img src="/tmpls/images/picto_down_46x46.png"/></div>
+</div>
+<div id="divMfContent">
+<div id="divMfHeader" class="divHeader"> </div>
+<div id="divMfBottom">
+<div id="divMfPanel" class="divPanel">
+<div id="divMfPanel1" class="divPanel1"> </div>
+</div>
+<div id="divMfIn" class="divNull">
+<div id="divMfPanel2">
+<div id="divMfPanel2A" class="divSplit0" onclick="rootModule.clkDoLogin()"> </div>
+<div id="divMfPanel2B"> </div>
+<div id="divMfPanel2C" class="divSplit0" onclick="rootModule.fbLogin()"> </div>
+<div id="divMfPanelD">
+<div id="divMfPanel2D1" class="divSplit0" onclick="rootBase.page('Fp')"> </div>
+<div id="divMfPanel2D2" class="divSplit0" onclick="rootBase.page('Rg')"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="divMs" class="NN">
+<div id="divMsHeader" class="divHeader"> </div>
+<div id="divMsSlider"> </div>
+<div id="divMsRestaurant" class="divNull">
+<div id="divMsRestPanel">
+<div id="divMsPanel1A" class="divSplit0" onclick="rootBase.page('Co')"> </div>
+</div>
+</div>
+<div id="divMsTable">
+<div class="divMsCell divMsCell1" onclick="rootBase.page('Ct')">
+<div id="divMsCell1T" class="divMsCellTitle"> </div>
+<div class="divMsCellContent divMsBg1">
+<div class="divMsCellPos">
+<div id="divMsCell1A"> </div>
+<div id="divMsCell1B">&nbsp;</div>
+</div>
+</div>
+</div>
+<div class="divMsCell divMsCell2" onclick="rootModule.clkCell2()">
+<div id="divMsCell2T" class="divMsCellTitle"> </div>
+<div class="divMsCellContent divMsBg2">
+<div class="divMsCellPos">
+<div id="divMsCell2A"> </div>
+<div id="divMsCell2B">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+<div id="divMs3" class="divNull">
+<div id="divMsPanel2">
+<div class="divSplit3">
+<div id="divMsPanel2A" onclick="rootBase.page('Ct', 'mp')"> </div>
+</div>
+<div class="divSplit4">
+<div id="divMsPanel2C" onclick="rootModule.clkFB()"> </div>
+</div>
+<div class="divSplit5">
+<div id="divMsPanel2B" onclick="rootBase.page('Mf', rootBase.pageurl('Pr'))"> </div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="divRg" class="NN">
+<div id="divRgHeader" class="divHeader"> </div>
+<div id="divRgPanel" class="divPanel">
+<div id="divRgPanel1" class="divPanel1"> </div>
+</div>
+<div id="divRgNull" class="divNull">
+<div id="divRgPanel2">
+<div id="divRgPanel2A" class="divSplit1" onclick="rootBase.page('Mf')"> </div>
+<div id="divRgPanel2B" class="divSplit2" onclick="rootModule.clkRgDo()"> </div>
+</div>
+</div>
+<div id="divRgAct" class="divPanel">
+<div id="divRgAct1" class="divPanel1"> </div>
+</div>
+<div id="divRgOk" class="divPanel">
+<div id="divRgOk1" class="divPanel1"> </div>
+</div>
+</div>
+
+<div id="divRn" class="NN">
+<div id="divRnHeader" class="divHeader"> </div>
+<div id="divRnTab" class="divContent CT"> </div>
+<div id="divRnPanel" class="divPanel">
+<div id="divRnPanel1" class="divPanel1"> </div>
+</div>
+<div id="divRnExt" class="divPanel">
+<div id="divRnPanel2" class="divPanel1"> </div>
+</div>
+<div id="divRnFx" class="divNull">
+<div id="divRnFx2">
+<div id="divRnFx2A" class="divSplit0" onclick="rootModule.clkRnReservation()"> </div>
+</div>
+</div>
+<div id="divRnRRC0"> </div>
+<div id="divRnRRC" class="divArea"> </div>
+<div id="divRnYCC" class="divArea"> </div>
+<div id="divRnSlider" class="NN">
+<div id="divRnSliderA"> </div>
+<div id="divRnSliderB"> </div>
+</div>
+</div>
+
+<div id="divFp" class="NN">
+<div id="divFpHeader" class="divHeader"> </div>
+<div id="divFpPanel" class="divPanel">
+<div id="divFpPanel1" class="divPanel1"> </div>
+</div>
+<div id="divFpNull" class="divNull">
+<div id="divFpPanel2">
+<div id="divFpPanel2A" class="divSplit1" onclick="rootBase.page('Mf')"> </div>
+<div id="divFpPanel2B" class="divSplit2" onclick="rootModule.clkFpDo()"> </div>
+</div>
+</div>
+</div>
+
+<div id="divPr" class="NN">
+<div id="divPrHeader" class="divHeader"> </div>
+<div id="divPrList"> </div>
+<div id="divPrButton" class="divPanel">
+<div id="divPrButtonLeft" class="NN"></div>
+<div id="divPrButtonRight" class="NN"></div>
+<div id="divPrLTOBuyT"></div>
+</div>
+<div id="divPrPanel" class="divPanel">
+<div id="divPrPanel1" class="divPanel1"> </div>
+</div>
+<div id="divPrRB">
+<div id="divPrRules"> </div>
+</div>
+</div>
+
+<div id="divSp" class="NN">
+<div id="divSpHeader" class="divHeader"> </div>
+<div id="divSpPanel" class="divPanel">
+<div id="divSpPanel1" class="divPanel1"> </div>
+</div>
+<div id="divSpNull" class="divNull">
+<div id="divSpPanel2">
+<div id="divSpPanel2A" class="divSplit1" onclick="rootBase.page('Pr')"> </div>
+<div id="divSpPanel2B" class="divSplit2" onclick="rootModule.clkSpDo()"> </div>
+</div>
+</div>
+</div>
+
+<div id="divLt" class="NN">
+<div id="divLtHeader" class="divHeader"> </div>
+<div id="divLtTab" class="divContent CT"> </div>
+<div id="divLtList"> </div>
+<div id="divLtForm" class="NN"> </div>
+</div>
+
+<div id="divCt" class="NN">
+<div id="divCtHeader" class="divHeader"> </div>
+<div id="divCtTab" class="divContent CT"> </div>
+<div id="divCtContent" class="divContent"> </div>
+</div>
+
+<div id="divPd" class="NN">
+<div id="divPdHeader" class="divHeader"> </div>
+<div id="divPdTab" class="divContent CT"> </div>
+<div id="divPdContent"> </div>
+</div>
+
+<div id="divDt" class="NN">
+<div id="divDtHeader" class="divHeader"> </div>
+<div id="divDtTab" class="divContent CT"> </div>
+<div id="divDtContent"> </div>
+<div id="divDtBtn" class="divNull">
+<div id="divDtBtn1">
+<div id="divDtBtn2" class="divSplit0" onclick="rootModule.clkClick()"> </div>
+</div>
+</div>
+</div>
+
+<div id="divCo" class="NN">
+<div id="divCoHeader" class="divHeader"> </div>
+<div id="divCoPanel" class="divPanel">
+<div id="divCoPanel1" class="divPanel1"> </div>
+</div>
+</div>
+
+<div id="divSl" class="NN">
+<div id="divSlHeader" class="divHeader"> </div>
+<div id="divSlPanel" class="divPanel">
+<div id="divSlPanel1" class="divPanel1"> </div>
+</div>
+<div id="divSlIn" class="divNull">
+<div id="divSlPanel2">
+<div id="divSlPanel2A" class="divSplit0" onclick="rootModule.clkSlLogin()"> </div>
+</div>
+</div>
+</div>
+
+<div id="divMc" class="NN">
+<div id="divMcHeader" class="divHeader"> </div>
+<div id="divMcList" class="divArea"> </div>
+<div id="divMcBtn" class="divNull">
+<div id="divMcBtn0">
+<div id="divMcBtn1" class="divSplit0" onclick="rootModule.clkOrder()"> </div>
+</div>
+</div>
+</div>
+
+<div id="divDo" class="NN">
+<div id="divDoHeader" class="divHeader">
+<div id="divDoHeader1">
+<div id="divDoHeader2">
+<a href="/"><img src="/tmpls/images/logo_black_423x510.png" id="imgDoLogo"></a>
+<span id="spanDoLang">
+<span id='spanDoHu'> </span>
+<span id="spanDoSep"> | </span>
+<span id="spanDoEn"> </span>
+</span>
+</div>
+</div>
+</div>
+<div id="divDoPanel" class="divPanel">
+<div id="divDoPanel1" class="divPanel1">
+<div id="divDoTitle"> </div>
+<div id="divDoContent"> </div>
+</div>
+</div>
+<div id="divDoFooter">
+<div id="divDoFooter1">
+<div id="divDoFooter2">
+<div id="divDoCopy"> </div>
+<div id="divDoRules"> </div>
+<div id="divDoSocial">
+<div id="divDoSocial2"><a href="https://www.instagram.com/kajahu_budapest/?hl=en"><img src="/tmpls/images/logo_instagram_73x68.png"></a></div>
+<div id="divDoSocial1"><a href="https://www.facebook.com/kajahu/"><img src="/tmpls/images/logo_facebook_73x68.png"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="divPy" class="NN">
+<div id="divPyHeader" class="divHeader"> </div>
+<div id="divPyPanelA" class="divPanel">
+<div id="divPyPanel0" class="divPanel0">
+<div>
+<div id="divPyAmLabel" class="divPyLabel1"> </div>
+<div id="divPyAmCurr" class="divPyLabel2"> </div>
+</div>
+</div>
+</div>
+<div id="divPyPanel" class="divPanel TRB">
+<div id="divPyPanel1" class="divPanel1">
+<div id="divPyCP"> </div>
+<div id="divPyLTO"> </div>
+</div>
+</div>
+<div id="divPyStat" class="divArea"> </div>
+<div id="divPy3" class="divNull TRB">
+<div id="divPy3Header"> </div>
+<div id="divPyPanel2" class="NN">
+<div id="divPyPayContainer">
+<div id="divPyLeft">
+<div id="divPyPanel2E"> </div>
+</div>
+<div id="divPyRight">
+<div id="divPyPanel2A" onclick="rootModule.clkPay('')"> </div>
+<div id="divPyPanel2B" onclick="rootModule.clkPay('cc')"> </div>
+<div id="divPyPanel2C" onclick="rootModule.clkPay('nat')"> </div>
+</div>
+</div>
+</div>
+<div id="divPyPanel2_0" class="NN">
+<div class="divSplit0">
+<div id="divPyPanel2D" onclick="rootModule.clkPay('')"> </div>
+</div>
+</div>
+<div id="divPyOtpLogo" onclick="rootBase.clkOtpLogo()"><img src="/tmpls/images/picto_simplepay_517x40.png"/></div>
+</div>
+<div id="divPyOtpDiv" class="NN"> </div>
+</div>
+
+<div id="divUp" class="NN">
+<div id="divUpHeader" class="divHeader"> </div>
+<div id="divUpPanel" class="divPanel">
+<div id="divUpPanel1" class="divPanel1"> </div>
+</div>
+<div class="divPanel">
+<div>
+<div id="divUpPanel2A" class="divSplit1" onclick="rootModule.clkDo(false)"> </div>
+<div id="divUpPanel2B" class="divSplit2" onclick="rootModule.clkDo(true)"> </div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div id="divPm" onclick="rootProp.hide()">
+<div id="divPm1">
+<div id="divPmHu" class="divPmLang" onclick="rootProp.setLang('hu')"> </div>
+<div id="divPmEn" class="divPmLang" onclick="rootProp.setLang('en')"> </div>
+<div id="divPmX"> </div>
+</div>
+<hr/>
+<div id="divPmMenu" onclick="rootBase.page('Ct', 'e')"> </div>
+<div id="divPmReservation" onclick="rootBase.page('Rn', 'n')"> </div>
+<div id="divPmDiscount" onclick="rootBase.page('Rn', 'c')"> </div>
+<div id="divPmLTO" onclick="rootBase.page('Lt')"> </div>
+<div id="divPmMp" onclick="rootBase.page('Ct', 'm')"> </div>
+<div id="divPmCo" onclick="rootBase.page('Co')"> </div>
+<div id="divPmPrf" onclick="rootBase.page('Pr')"> </div>
+<div id="divPmLogout" onclick="rootProp.clkLogout()"> </div>
+<div id="divPmLogin" onclick="rootBase.page('Mf', rootBase.pageurl('Ms'))"> </div>
+<div id="divPmPolicyRules">
+<div id="divPmPolicy" onclick="rootBase.showRules(false)"> </div>
+<div id="divPmRules" onclick="rootBase.showRules(true)"> </div>
+</div>
+</div>
+<div id="divPmGlass" class="NN" onclick="rootProp.hide()"> </div>
+
+<div id="divWm" class="NN">
+<div id="divWmKajahu">
+</div>
+<div id="divWmCyberg">
+</div>
+</div>
+
+<div id="divErr" class="NN" onclick="rootBase.hidePopup()">
+<div id="divErr0" class="NN">
+<div id="divErrY"> </div>
+<div id="divErrHelper"> </div>
+<div id="divErrV"> </div>
+</div>
+<div id="divErr1" class="NN">
+<div id="divErrX"> </div>
+<div id="divErrTitle"> </div>
+<div id="divErrDescr"> </div>
+</div>
+</div>
+<div id="divOkay" class="NN" onclick="rootBase.hidePopup()">
+<div id="divOkay1" class="NN">
+<div id="divErrX"> </div>
+<div id="divOkayTitle"> </div>
+<div id="divOkayDescr"> </div>
+</div>
+</div>
+<script>
+document.querySelectorAll("#divErrX").forEach(function(el) { el.textContent = "X"; });
+getObj("divErrY").textContent = "X";
+</script>
+
+<div id="divHuge" class="NN">
+<div id="divHugeClose" class="NN"> </div>
+<div id="divHuge1">
+<div id="divHugeTitle"> </div>
+<div id="divHugeContent"> </div>
+<div id="divHugeBtn" class="divTab divTabSelect"> </div>
+</div>
+</div>
+<div id="divTotal" class="NN" onclick="rootBase.page('Ms')">
+<div id="divTotalInner">
+<div id="divTotalTitle"> </div>
+<div id="divTotalDesc"> </div>
+<div id="divTotalButton"> </div>
+</div>
+</div>
+<div id="divMinipop" class="NN">
+<div id="divMinipopTimer"></div>
+<div id="divMinipopX" onclick="rootBase.hidePopup()"> </div>
+<div id="divMinipopInner"> </div>
+<div id="divMinipopButton"> </div>
+</div>
+<script>
+getObj("divHugeClose").textContent = "X";
+getObj("divMinipopX").textContent = "X";
+</script>
+
+<div id="divRule" class="NN">
+<div id="divRuleClose" class="NN"> </div>
+<div id="divRule1">
+<div id="divRuleTitle"> </div>
+<div id="divRuleContent"> </div>
+<div id="divRuleBtn" class="divTab divTabSelect"> </div>
+</div>
+</div>
+<script>
+getObj("divRuleClose").textContent = "X";
+</script>
+
+<div id="divPc" class="NN">
+<div id="divPcEtalon"> </div>
+<div id="divPcAll">
+<img src="/tmpls/images/bg_pc_1920x3296.jpg"/>
+</div>
+<div id="divPcLayer">
+<div id="divPcLang" class="ABS">
+<a href="/hu"><div id="divPcLangA"> </div></a>
+<div id="divPcLang0" class="IBLK">&nbsp; &nbsp;</div>
+<a href="/en"><div id="divPcLangB"> </div></a>
+</div>
+<div id="divPcLink1" onclick="rootModule.clkLink(1)" class="ABS CRP"> </div>
+<div id="divPcLink2" onclick="rootModule.clkLink(2)" class="ABS CRP"> </div>
+<div id="divPcLink3" onclick="rootModule.clkLink(3)" class="ABS CRP"> </div>
+<div id="divPcLink4" onclick="rootModule.clkLink(4)" class="ABS CRP"> </div>
+<div id="divPcHelloA"> </div>
+<div id="divPcHelloB"> </div>
+<div id="divPcDesc1"> </div>
+<div id="divPcDesc2"> </div>
+<div id="divPcDesc3" class="ABS">
+<div id="divPcDesc3A"> </div>
+<div id="divPcDesc3B"> </div>
+</div>
+<div id="divPcDesc4"> </div>
+<a href="https://www.google.hu/maps/place/Budapest,+Corvin+s%C3%A9t%C3%A1ny+3,+1082/@47.4858272,19.076199,19.66z/data=!4m5!3m4!1s0x4741dcf76cba4f21:0x795d7c15794516a1!8m2!3d47.4857716!4d19.0767897"> <div id="divPcCn1"> </div></a>
+<div id="divPcCn2"> </div>
+<div id="divPcCn3"> </div>
+<div id="divPcCn4"> </div>
+<div id="divPcCn5"> </div>
+<div id="divPcCn51"> </div>
+<a href="https://www.google.hu/maps/place/Kajahu+Restaurant/@47.494223,19.0522443,17z/data=!3m1!4b1!4m5!3m4!1s0x4741dc414524919d:0x635c3027450900c8!8m2!3d47.494223!4d19.054433"> <div id="divPcPe1"> </div></a>
+<div id="divPcPe2"> </div>
+<a id="aPcPe3"><div id="divPcPe3"> </div></a>
+<div id="divPcPe4"> </div>
+<div id="divPcPe5"> </div>
+<div id="divPcPe51"> </div>
+<div id="divPcPe52"> </div>
+<div id="divPcPe53"> </div>
+<div id="divPcPe54"> </div>
+<div id="divPcPe55"> </div>
+<div id="divPcPe56"> </div>
+<div id="divPcPe57"> </div>
+<a id="aPcFr"><div id="divPcFr"> </div></a>
+<div id="divPcPolicy" onclick="rootBase.page('Do','policy?mobile=1')"> </div>
+<div id="divPcRules" onclick="rootBase.page('Do','rule?mobile=1')"> </div>
+<div id="divPcYT" class="ABS"> </div>
+</div>
+</div>
+
+<div id="divCy" class="NN">
+<div id="divCy_A" class="NN">
+<div id="divCyEtalon"> </div>
+<div id="divCyAll">
+<img src="/tmpls/images/cybergcorp_1920x1936.jpg"/>
+</div>
+<div id="divCyAnim">
+<img id="imgCyAnim" src="/tmpls/images/cybergcorp_anim_800x1400.gif"/>
+</div>
+<div id="divCyList" class="ABS"> </div>
+<a id="aCyLinkAbout"><div id="divCyLinkAbout" class="ABS CRP"> </div></a>
+<a id="aCyLinkWelcome"><div id="divCyLinkWelcome" class="ABS CRP"> </div></a>
+<a id="aCyLinkInsta"><div id="divCyLinkInsta" class="ABS CRP"> </div></a>
+<a id="aCyLinkFb"><div id="divCyLinkFb" class="ABS CRP"> </div></a>
+<div id="divCyCopy" class="ABS"> </div>
+</div>
+<div id="divCy_M" class="NN">
+<div id="divCy_M1">
+<img src="/tmpls/images/cybergcorp_749x1063.jpg"/>
+<div id="divCy_M1_A"> </div>
+<div id="divCy_M1_B"> </div>
+<a href="/tmpls/doc/Investor_relations_2018.pdf"><div id="divCyMobileAbout" class="ABS"> </div></a>
+<a href="/tmpls/doc/Vezerigazgatoi_koszonto_CybergNyrt.pdf"><div id="divCyMobileWelcome1" class="ABS"> </div></a>
+</div>
+<div id="divCy_M2"><img src="/tmpls/images/balazs_616x470.png"/></div>
+<div id="divCyPre"> </div>
+<div id="divCyMobileDl"> </div>
+<div id="divCyTail0">
+<div id="divCyTail">
+<span id="spanCyTailText"> </span>
+<span>&nbsp; &nbsp;</span>
+<span><a href="https://www.instagram.com/kajahu_budapest/"><img src="/tmpls/images/picto_insta_21x15.png"/></a></span>
+<span><a href="https://www.facebook.com/kajahu/"><img src="/tmpls/images/picto_fb_22x15.png"/></a></span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="NN">
+KAJAHU is a digital social restaurant chain.<br/>
+Book your table, order or chat on your mobile.<br/>
+1052 Budapest, Petőfi Sándor utca 11.<br/>
++36 30 331 4404<br/>
+1081 Budapest, Corvin sétány 3.<br/>
++36 30 190 5100<br/>
+</div>
+<script type="text/javascript">
+Main(window.location.pathname);
+</script>
+</body>
+</html>
