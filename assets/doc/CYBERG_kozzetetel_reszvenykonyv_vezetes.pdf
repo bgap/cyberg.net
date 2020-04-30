@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1"/>
+<meta http-equiv="Cache-Control" content="no-store"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<link rel="stylesheet" type="text/css" href="/tmpls/static/kajahu.css?3842156"/>
+<script content="text/html; charset=utf-8" type="text/javascript" src="/tmpls/static/_param.js?3323943"></script>
+<script content="text/html; charset=utf-8" type="text/javascript" src="/tmpls/static/_config.js?5332107"></script>
+<script content="text/html; charset=utf-8" type="text/javascript" src="/tmpls/static/kajahu.js?4959620"></script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js"></script>
+<link rel="apple-touch-icon" sizes="180x180" href="/tmpls/images/apple-touch-icon_180x180.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/tmpls/images/favicon_32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/tmpls/images/favicon_16x16.png"/>
+<link rel="manifest" href="/tmpls/images/site.webmanifest"/>
+<link rel="mask-icon" href="/tmpls/images/safari-pinned-tab.svg" color="#5bbad5"/>
+<link rel="shortcut icon" href="/tmpls/images/favicon_16x16.png"/>
+<meta name="msapplication-TileColor" content="#da532c"/>
+<meta name="msapplication-config" content="/tmpls/images/browserconfig.xml"/>
+<meta name="theme-color" content="#ffffff"/>
+</head>
+<body>
+<div id="divBG0" class="NN"> </div>
+<div id="divBG1" class="NN">
+<div id="divBG1Top"> </div>
+</div>
+<div id="divBG2" class="NN"> </div>
+<div id="divAll">
+<div id="divContent">
+<div id="divMf" class="NN">
+<div id="divMfSplash">
+<div id="divMfSplashTop">
+<div id="divMfSplashLogo"><img src="/tmpls/images/logo_black_423x510.png"/></div>
+<div id="divMfSplashHi"> </div>
+<div id="divMfSplashDesc"> </div>
+<div id="divMfCode" class="NN">
+<div id="divMfCodeDesc"> </div>
+<div id="divMfCodeInput" class="divStringField">
+<input id="inputMfCode" name="inputMfCode" maxlength="6" type="number"/>
+</div>
+</div>
+</div>
+<div id="divMfSplashNext" onclick="rootModule.clkNext()"><img src="/tmpls/images/picto_down_46x46.png"/></div>
+</div>
+<div id="divMfContent">
+<div id="divMfHeader" class="divHeader"> </div>
+<div id="divMfBottom">
+<div id="divMfPanel" class="divPanel">
+<div id="divMfPanel1" class="divPanel1"> </div>
+</div>
+<div id="divMfIn" class="divNull">
+<div id="divMfPanel2">
+<div id="divMfPanel2A" class="divSplit0" onclick="rootModule.clkDoLogin()"> </div>
+<div id="divMfPanel2B"> </div>
+<div id="divMfPanel2C" class="divSplit0" onclick="rootModule.fbLogin()"> </div>
+<div id="divMfPanelD">
+<div id="divMfPanel2D1" class="divSplit0" onclick="rootBase.page('Fp')"> </div>
+<div id="divMfPanel2D2" class="divSplit0" onclick="rootBase.page('Rg')"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="divMs" class="NN">
+<div id="divMsHeader" class="divHeader"> </div>
+<div id="divMsSlider"> </div>
+<div id="divMsRestaurant" class="divNull">
+<div id="divMsRestPanel">
+<div id="divMsPanel1A" class="divSplit0" onclick="rootBase.page('Co')"> </div>
+</div>
+</div>
+<div id="divMsTable">
+<div class="divMsCell divMsCell1" onclick="rootBase.page('Ct')">
+<div id="divMsCell1T" class="divMsCellTitle"> </div>
+<div class="divMsCellContent divMsBg1">
+<div class="divMsCellPos">
+<div id="divMsCell1A"> </div>
+<div id="divMsCell1B">&nbsp;</div>
+</div>
+</div>
+</div>
+<div class="divMsCell divMsCell2" onclick="rootModule.clkCell2()">
+<div id="divMsCell2T" class="divMsCellTitle"> </div>
+<div class="divMsCellContent divMsBg2">
+<div class="divMsCellPos">
+<div id="divMsCell2A"> </div>
+<div id="divMsCell2B">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+<div id="divMs3" class="divNull">
+<div id="divMsPanel2">
+<div class="divSplit3">
+<div id="divMsPanel2A" onclick="rootBase.page('Ct', 'mp')"> </div>
+</div>
+<div class="divSplit4">
+<div id="divMsPanel2C" onclick="rootModule.clkFB()"> </div>
+</div>
+<div class="divSplit5">
+<div id="divMsPanel2B" onclick="rootBase.page('Mf', rootBase.pageurl('Pr'))"> </div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="divRg" class="NN">
+<div id="divRgHeader" class="divHeader"> </div>
+<div id="divRgPanel" class="divPanel">
+<div id="divRgPanel1" class="divPanel1"> </div>
+</div>
+<div id="divRgNull" class="divNull">
+<div id="divRgPanel2">
+<div id="divRgPanel2A" class="divSplit1" onclick="rootBase.page('Mf')"> </div>
+<div id="divRgPanel2B" class="divSplit2" onclick="rootModule.clkRgDo()"> </div>
+</div>
+</div>
+<div id="divRgAct" class="divPanel">
+<div id="divRgAct1" class="divPanel1"> </div>
+</div>
+<div id="divRgOk" class="divPanel">
+<div id="divRgOk1" class="divPanel1"> </div>
+</div>
+</div>
+
+<div id="divRn" class="NN">
+<div id="divRnHeader" class="divHeader"> </div>
+<div id="divRnTab" class="divContent CT"> </div>
+<div id="divRnPanel" class="divPanel">
+<div id="divRnPanel1" class="divPanel1"> </div>
+</div>
+<div id="divRnExt" class="divPanel">
+<div id="divRnPanel2" class="divPanel1"> </div>
+</div>
+<div id="divRnFx" class="divNull">
+<div id="divRnFx2">
+<div id="divRnFx2A" class="divSplit0" onclick="rootModule.clkRnReservation()"> </div>
+</div>
+</div>
+<div id="divRnRRC0"> </div>
+<div id="divRnRRC" class="divArea"> </div>
+<div id="divRnYCC" class="divArea"> </div>
+<div id="divRnSlider" class="NN">
+<div id="divRnSliderA"> </div>
+<div id="divRnSliderB"> </div>
+</div>
+</div>
+
+<div id="divFp" class="NN">
+<div id="divFpHeader" class="divHeader"> </div>
+<div id="divFpPanel" class="divPanel">
+<div id="divFpPanel1" class="divPanel1"> </div>
+</div>
+<div id="divFpNull" class="divNull">
+<div id="divFpPanel2">
+<div id="divFpPanel2A" class="divSplit1" onclick="rootBase.page('Mf')"> </div>
+<div id="divFpPanel2B" class="divSplit2" onclick="rootModule.clkFpDo()"> </div>
+</div>
+</div>
+</div>
+
+<div id="divPr" class="NN">
+<div id="divPrHeader" class="divHeader"> </div>
+<div id="divPrList"> </div>
+<div id="divPrButton" class="divPanel">
+<div id="divPrButtonLeft" class="NN"></div>
+<div id="divPrButtonRight" class="NN"></div>
+<div id="divPrLTOBuyT"></div>
+</div>
+<div id="divPrPanel" class="divPanel">
+<div id="divPrPanel1" class="divPanel1"> </div>
+</div>
+<div id="divPrRB">
+<div id="divPrRules"> </div>
+</div>
+</div>
+
+<div id="divSp" class="NN">
+<div id="divSpHeader" class="divHeader"> </div>
+<div id="divSpPanel" class="divPanel">
+<div id="divSpPanel1" class="divPanel1"> </div>
+</div>
+<div id="divSpNull" class="divNull">
+<div id="divSpPanel2">
+<div id="divSpPanel2A" class="divSplit1" onclick="rootBase.page('Pr')"> </div>
+<div id="divSpPanel2B" class="divSplit2" onclick="rootModule.clkSpDo()"> </div>
+</div>
+</div>
+</div>
+
+<div id="divLt" class="NN">
+<div id="divLtHeader" class="divHeader"> </div>
+<div id="divLtTab" class="divContent CT"> </div>
+<div id="divLtList"> </div>
+<div id="divLtForm" class="NN"> </div>
+</div>
+
+<div id="divCt" class="NN">
+<div id="divCtHeader" class="divHeader"> </div>
+<div id="divCtTab" class="divContent CT"> </div>
+<div id="divCtContent" class="divContent"> </div>
+</div>
+
+<div id="divPd" class="NN">
+<div id="divPdHeader" class="divHeader"> </div>
+<div id="divPdTab" class="divContent CT"> </div>
+<div id="divPdContent"> </div>
+</div>
+
+<div id="divDt" class="NN">
+<div id="divDtHeader" class="divHeader"> </div>
+<div id="divDtTab" class="divContent CT"> </div>
+<div id="divDtContent"> </div>
+<div id="divDtBtn" class="divNull">
+<div id="divDtBtn1">
+<div id="divDtBtn2" class="divSplit0" onclick="rootModule.clkClick()"> </div>
+</div>
+</div>
+</div>
+
+<div id="divDc" class="NN">
+<div id="divDcHeader" class="divHeader"> </div>
+<div id="divDcTab" class="divContent CT"> </div>
+<div id="divDcContent">
+<textarea id="divDvSource"> </textarea>
+<div id="divDcPrev"> </div>
+<div style="clear: both">
+<input type="button" id="divDcGo" value="Go">
+</div>
+</div>
+</div>
+
+<div id="divCo" class="NN">
+<div id="divCoHeader" class="divHeader"> </div>
+<div id="divCoPanel" class="divPanel">
+<div id="divCoPanel1" class="divPanel1"> </div>
+</div>
+</div>
+
+<div id="divSl" class="NN">
+<div id="divSlHeader" class="divHeader"> </div>
+<div id="divSlPanel" class="divPanel">
+<div id="divSlPanel1" class="divPanel1"> </div>
+</div>
+<div id="divSlIn" class="divNull">
+<div id="divSlPanel2">
+<div id="divSlPanel2A" class="divSplit0" onclick="rootModule.clkSlLogin()"> </div>
+</div>
+</div>
+</div>
+
+<div id="divMc" class="NN">
+<div id="divMcHeader" class="divHeader"> </div>
+<div id="divMcList" class="divArea"> </div>
+<div id="divMcBtn" class="divNull">
+<div id="divMcBtn0">
+<div id="divMcBtn1" class="divSplit0" onclick="rootModule.clkOrder()"> </div>
+</div>
+</div>
+</div>
+
+<div id="divDo" class="NN">
+<div id="divDoHeader" class="divHeader">
+<div id="divDoHeader1">
+<div id="divDoHeader2">
+<a href="/"><img src="/tmpls/images/logo_black_423x510.png" id="imgDoLogo"></a>
+<span id="spanDoLang">
+<span id='spanDoHu'> </span>
+<span id="spanDoSep"> | </span>
+<span id="spanDoEn"> </span>
+</span>
+</div>
+</div>
+</div>
+<div id="divDoPanel" class="divPanel">
+<div id="divDoPanel1" class="divPanel1">
+<div id="divDoTitle"> </div>
+<div id="divDoContent"> </div>
+</div>
+</div>
+<div id="divDoFooter">
+<div id="divDoFooter1">
+<div id="divDoFooter2">
+<div id="divDoCopy"> </div>
+<div id="divDoRules"> </div>
+<div id="divDoSocial"> </div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="divPy" class="NN">
+<div id="divPyHeader" class="divHeader"> </div>
+<div id="divPyPanelA" class="divPanel">
+<div id="divPyPanel0" class="divPanel0">
+<div>
+<div id="divPyAmLabel" class="divPyLabel1"> </div>
+<div id="divPyAmCurr" class="divPyLabel2"> </div>
+</div>
+</div>
+</div>
+<div id="divPyPanel" class="divPanel TRB">
+<div id="divPyPanel1" class="divPanel1">
+<div id="divPyCP"> </div>
+<div id="divPyLTO"> </div>
+</div>
+</div>
+<div id="divPyStat" class="divArea"> </div>
+<div id="divPy3" class="divNull TRB">
+<div id="divPy3Header"> </div>
+<div id="divPyPanel2" class="NN">
+<div id="divPyPayContainer">
+<div id="divPyLeft">
+<div id="divPyPanel2E"> </div>
+</div>
+<div id="divPyRight">
+<div id="divPyPanel2A" onclick="rootModule.clkPay('')"> </div>
+<div id="divPyPanel2B" onclick="rootModule.clkPay('cc')"> </div>
+<div id="divPyPanel2C" onclick="rootModule.clkPay('nat')"> </div>
+</div>
+</div>
+</div>
+<div id="divPyPanel2_0" class="NN">
+<div class="divSplit0">
+<div id="divPyPanel2D" onclick="rootModule.clkPay('')"> </div>
+</div>
+</div>
+<div id="divPyOtpLogo" onclick="rootBase.clkOtpLogo()"><img src="/tmpls/images/picto_simplepay_517x40.png"/></div>
+</div>
+<div id="divPyOtpDiv" class="NN"> </div>
+</div>
+
+<div id="divUp" class="NN">
+<div id="divUpHeader" class="divHeader"> </div>
+<div id="divUpPanel" class="divPanel">
+<div id="divUpPanel1" class="divPanel1"> </div>
+</div>
+<div class="divPanel">
+<div>
+<div id="divUpPanel2A" class="divSplit1" onclick="rootModule.clkDo(false)"> </div>
+<div id="divUpPanel2B" class="divSplit2" onclick="rootModule.clkDo(true)"> </div>
+</div>
+</div>
+</div>
+
+<div id="divQz" class="NN">
+<div id="divQzHeader" class="divHeader"> </div>
+<div id="divQzTitle" class="divPanel">
+<div id="divQzPanel1" class="divQzPanel1"> </div>
+</div>
+<div id="divQzPanel" class="divPanel">
+<div id="divQzPanelLeft"> </div>
+<div id="divQzPanelRight"> </div>
+<div class="CLR" ></div>
+</div>
+<div id="divQzGo" class="divPanel"></div>
+</div>
+
+</div>
+</div>
+<div id="divPm" onclick="rootProp.hide()">
+<div id="divPm1">
+<div id="divPmHu" class="divPmLang" onclick="rootProp.setLang('hu')"> </div>
+<div id="divPmEn" class="divPmLang" onclick="rootProp.setLang('en')"> </div>
+<div id="divPmX"> </div>
+</div>
+<hr/>
+<div id="divPmMenu" onclick="rootBase.page('Ct', 'e')"> </div>
+<div id="divPmReservation" onclick="rootBase.page('Rn', 'n')"> </div>
+<div id="divPmDiscount" onclick="rootBase.page('Rn', 'c')"> </div>
+<div id="divPmLTO" onclick="rootBase.page('Lt')"> </div>
+<div id="divPmMp" onclick="rootBase.page('Ct', 'm')"> </div>
+<div id="divPmCo" onclick="rootBase.page('Co')"> </div>
+<div id="divPmPrf" onclick="rootBase.page('Pr')"> </div>
+<div id="divPmLogout" onclick="rootProp.clkLogout()"> </div>
+<div id="divPmLogin" onclick="rootBase.page('Mf', rootBase.pageurl('Ms'))"> </div>
+<div id="divPmPolicyRules">
+<div id="divPmPolicy" onclick="rootBase.showRules(false)"> </div>
+<div id="divPmRules" onclick="rootBase.showRules(true)"> </div>
+</div>
+</div>
+<div id="divPmGlass" class="NN" onclick="rootProp.hide()"> </div>
+
+<div id="divWm" class="NN">
+<div id="divWmKajahu">
+</div>
+<div id="divWmCyberg">
+</div>
+</div>
+
+<div id="divErr" class="NN" onclick="rootBase.hidePopup()">
+<div id="divErr0" class="NN">
+<div id="divErrY"> </div>
+<div id="divErrHelper"> </div>
+<div id="divErrV"> </div>
+</div>
+<div id="divErr1" class="NN">
+<div id="divErrX"> </div>
+<div id="divErrTitle"> </div>
+<div id="divErrDescr"> </div>
+</div>
+</div>
+<div id="divOkay" class="NN" onclick="rootBase.hidePopup()">
+<div id="divOkay1" class="NN">
+<div id="divOkayX"> </div>
+<div id="divOkayTitle"> </div>
+<div id="divOkayDescr"> </div>
+</div>
+</div>
+
+<div id="divHuge" class="NN">
+<div id="divHugeClose" class="NN"> </div>
+<div id="divHuge1">
+<div id="divHugeTitle"> </div>
+<div id="divHugeContent"> </div>
+<div id="divHugeBtn" class="divTab divTabSelect"> </div>
+</div>
+</div>
+<div id="divTotal" class="NN" onclick="rootBase.page('Ms')">
+<div id="divTotalInner">
+<div id="divTotalTitle"> </div>
+<div id="divTotalDesc"> </div>
+<div id="divTotalButton"> </div>
+</div>
+</div>
+<div id="divMinipop" class="NN">
+<div id="divMinipopTimer"></div>
+<div id="divMinipopX" onclick="rootBase.hidePopup()"> </div>
+<div id="divMinipopInner"> </div>
+<div id="divMinipopButton"> </div>
+</div>
+
+<div id="divRule" class="NN">
+<div id="divRuleClose" class="NN"> </div>
+<div id="divRule1">
+<div id="divRuleTitle"> </div>
+<div id="divRuleContent"> </div>
+<div id="divRuleBtn" class="divTab divTabSelect"> </div>
+</div>
+</div>
+
+<div id="divCz" class="NN">
+<div id="divCz_A" class="NN">
+<div id="divCzHeaderSimple">
+<div id="divCzHeaderSimpleInner">
+<div id="divCzHeaderSimpleInnerImgC">
+<img id="divCzHeaderSimpleInnerImg" src="/tmpls/images/cy_logo_h_b_160x90.png"/>
+</div>
+<div class="ABS CSR" id="divCzHeaderSimpleHun"></div>
+<div class="ABS CSR" id="divCzHeaderSimpleEng"></div>
+</div>
+</div>
+<div id="divCzEtalon"> </div>
+<div class="ABS" id="divCzHeader">
+<div class="ABS" id="divCzHeaderImg">
+<img src="/tmpls/images/cy_header_1920x1080.jpg"/>
+</div>
+<div id="divCzHeaderLogo">
+<img id="divCzHeaderLogoImg"/>
+</div>
+<div id="divCzHeaderPhone">
+<img id="divCzHeaderPhoneImg"/>
+</div>
+<div class="ABS CSR" id="divCzHeaderHun"></div>
+<div class="ABS CSR" id="divCzHeaderEng"></div>
+<div class="ABS divCzTitle" id="divCzHeaderKajahu"></div>
+<div class="ABS divCzLH14" id="divCzHeaderLong"></div>
+</div>
+<div class="ABS" id="divCzPostHeader"></div>
+<div class="ABS" id="divCzYt">
+<div class="ABS divCzTitle divCzBig" id="divCzYtTitle"></div>
+<div class="ABS divCzNormal" id="divCzYtText"></div>
+<div class="ABS" id="divCzYtFrame">
+<iframe class="iframeCzVideo" src="https://www.youtube.com/embed/-iZjUsDzSu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="ABS" id="divCzPostYt"></div>
+<div class="ABS" id="divCzBalazs">
+<div class="ABS" id="divCzBalazsImg">
+<img src="/tmpls/images/balazs_647x392.png"/>
+</div>
+<div class="ABS divCzTitle divCzBig" id="divCzRozsaBalazs"></div>
+<div class="ABS colorGld divCzLarge divCzBold" id="divCzBalazsSlogan"></div>
+<div class="ABS divCzNormal" id="divCzBalazsText"></div>
+<a id="aCzBalazsLink"><div class="ABS colorGld divCzBold" id="divCzBalazsLink"></div></a>
+</div>
+<div class="ABS" id="divCzPostBalazs"></div>
+<div class="ABS" id="divCzBooker">
+<div class="ABS" id="divCzBookerImg">
+<img src="/tmpls/images/cy_booker_588x392.jpg"/>
+</div>
+<div class="ABS divCzTitle divCzBig" id="divCzBookerTitle"></div>
+<div class="ABS divCzNormal" id="divCzBookerText"></div>
+<a id="aCzBookerLink"><div class="ABS colorGld divCzBold" id="divCzBookerLink"></div></a>
+</div>
+<div class="ABS" id="divCzPostBooker"></div>
+<div class="ABS" id="divCzSlidshare">
+<div class="ABS divCzTitle divCzBig" id="divCzSlideshareTitle"></div>
+<div class="ABS divCzNormal" id="divCzSlideshareText"></div>
+<div class="ABS" id="divCzSlideshareFrame">
+<iframe style="border:none;width:100%;max-width:100%;height:100%;max-height:500px;" src="//e.issuu.com/embed.html#38149364/70077057" allowfullscreen=""></iframe>
+</div>
+</div>
+<div class="ABS" id="divCzPostSlideshare"></div>
+<div class="ABS">
+<div class="ABS divCzTitle divCzBig" id="divCzMapYear5"> </div>
+</div>
+<div class="ABS" id="divCzMap">
+<div class="ABS" id="divCzMapImg">
+<img id="imgCzMapImg"/>
+</div>
+</div>
+<div class="ABS" id="divCzFrInfo">
+<div class="ABS" id="divCzFrInfoImg">
+<img src="/tmpls/images/cy_fr_circles_696x155.png"/>
+</div>
+<div class="ABS divCzTitle divCzBig" id="divCzFrInfoTitle"> </div>
+<div class="ABS divCzNormal" id="divCzFrInfoText"> </div>
+<a href="https://fgdltd.typeform.com/to/QRmCdT"><div class="ABS colorGld divCzBold" id="divCzFrInfoLink1"></div></a>
+</div>
+<div class="ABS" id="divCzNews1">
+<div class="ABS" id="divCzNews1a">
+<img id="imgCzNews1a"/>
+<div id="divCzNews1aTitle" class="divCzVerybold"></div>
+<a href="https://www.google.com/maps/place/KAJAHU/@47.4942266,19.0522443,17z/data=!4m12!1m6!3m5!1s0x4741dc414524919d:0x635c3027450900c8!2sKAJAHU!8m2!3d47.494223!4d19.054433!3m4!1s0x4741dc414524919d:0x635c3027450900c8!8m2!3d47.494223!4d19.054433"><div id="divCzNews1aText"></div></a>
+</div>
+<div class="ABS" id="divCzNews1b">
+<img id="imgCzNews1b"/>
+<div id="divCzNews1bTitle" class="divCzVerybold"></div>
+<a href="https://www.google.com/maps/place/KAJAHU+Corvin/@47.4857752,19.074601,17z/data=!4m12!1m6!3m5!1s0x4741dd66d81438e1:0x9ab34ef55b93ffbd!2sKAJAHU+Corvin!8m2!3d47.4857716!4d19.0767897!3m4!1s0x4741dd66d81438e1:0x9ab34ef55b93ffbd!8m2!3d47.4857716!4d19.0767897"><div id="divCzNews1bText"></div></a>
+</div>
+<div class="ABS" id="divCzNews1c">
+<img id="imgCzNews1c"/>
+<div id="divCzNews1cTitle" class="divCzVerybold"></div>
+<a href="https://www.google.com/maps/place/Fashion+Outlet+Parndorf/@47.9803134,16.8489272,17z/data=!4m12!1m6!3m5!1s0x476c5d6b66d1e729:0x1916f11d3b9e85f1!2sFashion+Outlet+Parndorf!8m2!3d47.9803098!4d16.8511159!3m4!1s0x476c5d6b66d1e729:0x1916f11d3b9e85f1!8m2!3d47.9803098!4d16.8511159"><div id="divCzNews1cText"></div></a>
+</div>
+</div>
+<div class="ABS" id="divCzCompanies"></div>
+<div class="ABS CT" id="divCzAwards"></div>
+<div class="ABS CT" id="divCzPostAwards"></div>
+<div class="ABS" id="divCzNews2">
+<div class="ABS" id="divCzNews2a">
+<img id="imgCzNews2a"/>
+<div id="divCzNews2aTitle" class="divCzVerybold"></div>
+<div id="divCzNews2aHead" class="divCzNewsHead colorGry"></div>
+<div id="divCzNews2aText" class="divCzNormal"></div>
+<a id="aCzNews2aLink1"><div id="divCzNews2aLink1" class="colorGld divCzBold"></div></a>
+<a href="/tmpls/doc/Press_Day_Presentation_published_23052019.pdf"><div id="divCzNews2aLink2" class="colorGld divCzBold"></div></a>
+</div>
+<div class="ABS" id="divCzNews2b">
+<img id="imgCzNews2b"/>
+<div id="divCzNews2bTitle" class="divCzVerybold"></div>
+<div id="divCzNews2bHead" class="divCzNewsHead colorGry"></div>
+<div id="divCzNews2bText" class="divCzNormal"></div>
+</div>
+<div class="ABS" id="divCzNews2c">
+<img id="imgCzNews2c"/>
+<div id="divCzNews2cTitle" class="divCzVerybold"></div>
+<div id="divCzNews2cHead" class="divCzNewsHead colorGry"></div>
+<div id="divCzNews2cText" class="divCzNormal"></div>
+</div>
+</div>
+<div class="ABS" id="divCzDocs">
+<div class="ABS" id="divCzDocsImg">
+<img src="/tmpls/images/cy_dl_info_615x392.png"/>
+</div>
+<div class="ABS divCzTitle divCzBig" id="divCzDocsTitle"></div>
+<div class="ABS" id="divCzDocsList"></div>
+</div>
+<div class="ABS" id="divCzPostDocs"></div>
+<div class="ABS" id="divCzStockexchange">
+<div class="ABS divCzTitle divCzBig" id="divCzStockexchangeTitle"></div>
+<div class="ABS" id="divCzStockexchangeText" class="divCzNormal"></div>
+<div class="ABS colorGld divCzBold CSR" id="divCzStockexchangeLink" onclick="rootModule.clkStock()"></div>
+<div class="ABS" id="divCzStockexchangeImg">
+<img src="/tmpls/images/cy_xtrend_698x392.png"/>
+</div>
+</div>
+<div class="ABS" id="divCzPostStockexchange"></div>
+<div class="ABS" id="divCzFooter1"></div>
+<div class="ABS" id="divCzFooter1Col1"></div>
+<div class="ABS" id="divCzFooter1Col2"></div>
+<div class="ABS" id="divCzFooter2"></div>
+<div class="ABS" id="divCzFooter2Link1"></div>
+<div class="ABS" id="divCzFooter2Link2"></div>
+</div>
+<div id="divCz_M" class="NN">
+<div id="divCzMHeaderSimple">
+<div id="divCzMHeaderSimpleInner">
+<div id="divCzMHeaderSimpleInnerImgC">
+<img id="divCzMHeaderSimpleInnerImg" src="/tmpls/images/cy_logo_h_b_160x90.png"/>
+</div>
+<div class="ABS CSR" id="divCzMHeaderSimpleHun"></div>
+<div class="ABS CSR" id="divCzMHeaderSimpleEng"></div>
+</div>
+</div>
+<div class="ABS" id="divCzMHeader">
+<div class="ABS" id="divCzMHeaderImg">
+<img src="/tmpls/images/cy_header_1920x1080.jpg"/>
+</div>
+<div id="divCzMHeaderLogo">
+<img id="divCzMHeaderLogoImg"/>
+</div>
+<div id="divCzMHeaderPhone">
+<img id="divCzMHeaderPhoneImg"/>
+</div>
+<div class="ABS" id="divCzMHeaderHun"></div>
+<div class="ABS" id="divCzMHeaderEng"></div>
+<div class="ABS divCzTitle" id="divCzMHeaderKajahu"></div>
+<div class="ABS divCzLH14" id="divCzMHeaderLong"></div>
+</div>
+<div class="ABS" id="divCzMYt">
+<div class="ABS" id="divCzMYtFrame">
+<iframe class="iframeCzVideo" src="https://www.youtube.com/embed/VZ3f61GYSRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="ABS divCzTitle divCzBig" id="divCzMYtTitle"></div>
+<div class="ABS divCzNormal" id="divCzMYtText"></div>
+</div>
+<div class="ABS" id="divCzMBalazs">
+<div class="ABS" id="divCzMBalazsImg">
+<img src="/tmpls/images/balazs_647x392.png"/>
+</div>
+<div class="ABS divCzMTitle" id="divCzMRozsaBalazs"></div>
+<div class="ABS colorGld divCzBold" id="divCzMBalazsSlogan"></div>
+<div class="ABS" id="divCzMBalazsText"></div>
+<a id="aCzMBalazsLink"><div class="ABS colorGld divCzBold" id="divCzMBalazsLink"></div></a>
+</div>
+<div class="ABS" id="divCzMBooker">
+<div class="ABS" id="divCzMBookerImg">
+<img src="/tmpls/images/cy_booker_588x392.jpg"/>
+</div>
+<div class="ABS divCzMTitle" id="divCzMBookerTitle"></div>
+<div class="ABS" id="divCzMBookerText"></div>
+<a id="aCzMBookerLink"><div class="ABS colorGld divCzBold" id="divCzMBookerLink"></div></a>
+</div>
+<div class="ABS" id="divCzMSlidshare">
+<div class="ABS divCzMTitle" id="divCzMSlideshareTitle"></div>
+<div class="ABS" id="divCzMSlideshareText"></div>
+<div class="ABS" id="divCzMSlideshareFrame">
+<iframe data-configid="38149364/69973900" style="border:none;width:100%;max-width:100%;height:100%;max-height:500px;" src="//e.issuu.com/embed.html#38149364/69973900" allowfullscreen=""></iframe>
+</div>
+</div>
+<div class="ABS" id="divCzMMap">
+<div class="ABS" id="divCzMMapImg">
+<img id="imgCzMMapImg"/>
+</div>
+</div>
+<div class="ABS" id="divCzMFrInfo">
+<div class="ABS" id="divCzMFrInfoImg">
+<img src="/tmpls/images/cy_fr_circles_696x155.png"/>
+</div>
+<div class="ABS divCzMTitle" id="divCzMFrInfoTitle"></div>
+<div class="ABS" id="divCzMFrInfoText"></div>
+<a href="https://fgdltd.typeform.com/to/QRmCdT"><div class="ABS colorGld divCzBold" id="divCzMFrInfoLink1"></div></a>
+</div>
+<div class="ABS" id="divCzMNews1">
+<div class="ABS" id="divCzMNews1a">
+<img id="imgCzMNews1a"/>
+<div id="divCzMNews1aTitle" class="divCzVerybold"></div>
+<a href="https://www.google.com/maps/place/KAJAHU/@47.4942266,19.0522443,17z/data=!4m12!1m6!3m5!1s0x4741dc414524919d:0x635c3027450900c8!2sKAJAHU!8m2!3d47.494223!4d19.054433!3m4!1s0x4741dc414524919d:0x635c3027450900c8!8m2!3d47.494223!4d19.054433"><div id="divCzMNews1aText"></div></a>
+</div>
+<div class="ABS" id="divCzMNews1b">
+<img id="imgCzMNews1b"/>
+<div id="divCzMNews1bTitle" class="divCzVerybold"></div>
+<a href="https://www.google.com/maps/place/KAJAHU+Corvin/@47.4857752,19.074601,17z/data=!4m12!1m6!3m5!1s0x4741dd66d81438e1:0x9ab34ef55b93ffbd!2sKAJAHU+Corvin!8m2!3d47.4857716!4d19.0767897!3m4!1s0x4741dd66d81438e1:0x9ab34ef55b93ffbd!8m2!3d47.4857716!4d19.0767897"><div id="divCzMNews1bText"></div></a>
+</div>
+<div class="ABS" id="divCzMNews1c">
+<img id="imgCzMNews1c"/>
+<div id="divCzMNews1cTitle" class="divCzVerybold"></div>
+<a href="https://www.google.com/maps/place/Fashion+Outlet+Parndorf/@47.9803134,16.8489272,17z/data=!4m12!1m6!3m5!1s0x476c5d6b66d1e729:0x1916f11d3b9e85f1!2sFashion+Outlet+Parndorf!8m2!3d47.9803098!4d16.8511159!3m4!1s0x476c5d6b66d1e729:0x1916f11d3b9e85f1!8m2!3d47.9803098!4d16.8511159"><div id="divCzMNews1cText"></div></a>
+</div>
+</div>
+<div class="ABS" id="divCzMCompanies"></div>
+<div class="ABS" id="divCzMBusinessJournal"></div>
+<div class="ABS" id="divCzMBvz"></div>
+<div class="ABS" id="divCzMForbes"></div>
+<div class="ABS" id="divCzMNapi"></div>
+<div class="ABS" id="divCzMEmpere"></div>
+<div class="ABS CT" id="divCzMAwards"> </div>
+<div class="ABS" id="divCzMNews2">
+<div class="ABS" id="divCzMNews2a">
+<img id="imgCzMNews2a"/>
+<div id="divCzMNews2aTitle" class="divCzVerybold"></div>
+<div id="divCzMNews2aHead" class="divCzNewsHead colorGry"></div>
+<div id="divCzMNews2aText"></div>
+<a id="aCzMNews2aLink1"><div id="divCzMNews2aLink1" class="colorGld divCzBold"></div></a>
+<a href="/tmpls/doc/Press_Day_Presentation_published_23052019.pdf"><div id="divCzMNews2aLink2" class="colorGld divCzBold"></div></a>
+</div>
+<div class="ABS" id="divCzMNews2b">
+<img id="imgCzMNews2b"/>
+<div id="divCzMNews2bTitle" class="divCzVerybold"></div>
+<div id="divCzMNews2bHead" class="divCzNewsHead colorGry"></div>
+<div id="divCzMNews2bText"></div>
+</div>
+<div class="ABS" id="divCzMNews2c">
+<img id="imgCzMNews2c"/>
+<div id="divCzMNews2cTitle" class="divCzVerybold"></div>
+<div id="divCzMNews2cHead" class="divCzNewsHead colorGry"></div>
+<div id="divCzMNews2cText"></div>
+</div>
+</div>
+<div class="ABS" id="divCzMDocs">
+<div class="ABS" id="divCzMDocsImg">
+<img src="/tmpls/images/cy_dl_info_615x392.png"/>
+</div>
+<div class="ABS divCzMTitle" id="divCzMDocsTitle"></div>
+<div class="ABS" id="divCzMDocsList"></div>
+</div>
+<div class="ABS" id="divCzMStockexchange">
+<div class="ABS" id="divCzMStockexchangeImg">
+<img src="/tmpls/images/cy_xtrend_698x392.png"/>
+</div>
+<div class="ABS divCzBold" id="divCzMStockexchangeTitle"></div>
+<div class="ABS" id="divCzMStockexchangeText"></div>
+<div class="ABS colorGld divCzBold CSR" id="divCzMStockexchangeLink" onclick="rootModule.clkStock()"></div>
+</div>
+<div class="ABS" id="divCzMFooter1"></div>
+<div class="ABS" id="divCzMFooter1Col1"></div>
+<div class="ABS" id="divCzMFooter1Col2"></div>
+<div class="ABS" id="divCzMFooter1Col3"></div>
+<div class="ABS" id="divCzMFooter2"></div>
+<div class="ABS" id="divCzFooter2Link1"></div>
+<div class="ABS" id="divCzFooter2Link2"></div>
+</div>
+</div>
+
+<div class="NN">
+KAJAHU is a digital social restaurant chain.<br/>
+Book your table, order or chat on your mobile.<br/>
+1052 Budapest, Petőfi Sándor utca 11.<br/>
++36 30 331 4404<br/>
+1081 Budapest, Corvin sétány 3.<br/>
++36 30 190 5100<br/>
+</div>
+<script type="text/javascript">
+Main(window.location.pathname);
+</script>
+</body>
+</html>
