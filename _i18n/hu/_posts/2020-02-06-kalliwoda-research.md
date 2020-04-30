@@ -1,6 +1,7 @@
 ---
 # layout: news
 title: A legutóbbi átfogó elemzése Dr. Kalliwoda Research-től
+date: 2020-02-06 11:22:00
 docs:
   - file: CYBERG_Corp_Kalliwoda_research_update.pdf
     label: CYBERG elemzés

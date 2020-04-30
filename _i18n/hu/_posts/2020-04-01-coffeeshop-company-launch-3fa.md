@@ -1,6 +1,7 @@
 ---
 # layout: news
 title: A Coffeeshop Company elsőként vezeti be a 3FA modellt
+date: 2020-04-01 11:22:00
 links:
   - url: http://www.coffeeshopcompany.com/
     label: Coffeeshop Company
