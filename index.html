@@ -40,10 +40,11 @@ permalink: /
 <section id="service">
   <div class="container">
     <div class="row">
-      {% for news in site.categories['highlighted'] %}
-        {% include news-highlight.html news=news %}
+      {% for news in site.categories['news'] %}
+        {% if news.tags contains 'highlighted' %}
+          {% include news-highlight.html news=news %}
+        {% endif %}
       {% endfor %}
-     
     </div>
   </div>
 </section>
