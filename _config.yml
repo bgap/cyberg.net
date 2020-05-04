@@ -58,3 +58,5 @@ plugins:
 # Localization settings - jekyll-multiple-languages-plugin
 languages: ["en", "hu"]
 exclude_from_localizations: ["css", "js", "fonts", "assets"]
+
+timezone: Europe/Budapest

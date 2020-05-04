@@ -4,7 +4,8 @@ title: CYBERG Corp Kalliwoda research update
 docs:
   - file: CYBERG_Corp_Kalliwoda_research_update.pdf
 img: kalliwoda.jpg
-categories: [news, highlighted]
+categories: [news]
+tags: [highlighted]
 ---
 
-Download here the new update about CYBERG from Dr. Kalliwoda Research GmbH, the independent German supplier of equity and bond research specialized for Mid- and Small-Cap companies.
+Download the new update about CYBERG from Dr. Kalliwoda Research GmbH, the independent German supplier of equity and bond research specialized for Mid- and Small-Cap companies.
