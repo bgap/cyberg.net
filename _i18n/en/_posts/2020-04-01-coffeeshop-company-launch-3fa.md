@@ -10,4 +10,4 @@ categories: [news]
 tags: [highlighted]
 ---
 
-The two companies agreed CYBERG supports Coffeeshop Company in establishing additional digital services and revenue sources and launching the 3FA model in their shops. The Austrian based franchise network has more than 200 units around the globe now.
+The two companies agreed CYBERG supports Coffeeshop Company in establishing additional digital services and revenue sources and launching the 3FA model in their shops. The Austrian franchise network currently has more than 200 units around the globe.

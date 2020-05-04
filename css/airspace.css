@@ -5,9 +5,12 @@
   font-family: "IntroW01-BlackAlt";
   src: url("../fonts/Intro W01 Black Alt.ttf");
 }
-
+@font-face {
+  font-family: "Intro-RegularAlt";
+  src: url("../fonts/Intro Regular Alt.ttf");
+}
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Intro-RegularAlt";
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -187,10 +190,10 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 20px;
 }
 
-#downloads .block p {
+/* #downloads .block p {
   color: white;
   padding-top: 20px;
-}
+} */
 #downloads .block img {
   width: 100%;
 }
@@ -213,7 +216,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .post-download-line .doc-label .date {
   color: #b17524 !important;
-  padding-right: 3px;
+  padding-right: 5px;
 }
 
 #service {
