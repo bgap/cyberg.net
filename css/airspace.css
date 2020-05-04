@@ -438,11 +438,17 @@ footer .container {
   width: 34rem;
 }
 .cyberg-articles-img {
-  height: 7rem;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
   width: 13rem;
 }
 
 .cyberg-articles-lang {
+  margin-top: 8rem;
   color: #333;
   padding-top: 10px;
 }
@@ -453,6 +459,7 @@ footer .container {
 .cyberg-awards {
   font-weight: 500;
   color: #f5f5f5;
+  margin-bottom: 5rem;
 }
 .cyberg-mastercard {
   padding-top: 25px;
