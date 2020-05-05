@@ -59,18 +59,17 @@ permalink: /
         </div>
       </div>
 
-      <div class="col-md-8 col-sm-12">
+      <div class="col-md-8 col-sm-12" style="width: 70rem; height: 35rem;overflow: scroll;">
         <div class="block">
           <div class="section-title">
             <h2>{% t sections.download.title %}</h2>
-
-            <p>
-              {% for post in site.posts %}
+              <p>
+                {% for post in site.posts %}
                 {% for doc in post.docs %}
-                  {% include post-download-line.html post=post doc=doc %}
+                {% include post-download-line.html post=post doc=doc %}
                 {% endfor %}
-              {% endfor %}
-            </p>
+                {% endfor %}
+              </p>
           </div>
         </div>
       </div>
