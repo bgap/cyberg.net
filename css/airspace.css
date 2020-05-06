@@ -182,7 +182,11 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #212327;
 }
 
-#downloads .block h2 {
+#downloads .section-title {
+  margin-bottom: 0px;
+}
+
+#downloads .section-title h2 {
   padding-top: 35px;
   line-height: 20px;
   margin: 0;
@@ -190,18 +194,32 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 20px;
 }
 
-/* #downloads .block p {
-  color: white;
-  padding-top: 20px;
-} */
 #downloads .block img {
   width: 100%;
 }
 
-#downloads .section-title p {
+#downloads .downloadables {
+  max-height: 35rem;
+  overflow-y: auto;
   padding-top: 0px;
   margin: 0;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#downloads .downloadables::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+#downloads .downloadables {
+  -ms-overflow-style: none;
+}
+
+#downloads .downloadables p {
+  margin: 0;
+  color: #666;
+}
+
 .post-download-line {
   display: flex;
   padding-bottom: 10px;
