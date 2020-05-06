@@ -152,7 +152,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #post-intro .block h2 {
   padding-top: 35px;
-  line-height: 20px;
   margin: 0;
   color: black;
 }
@@ -188,7 +187,6 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #downloads .section-title h2 {
   padding-top: 35px;
-  line-height: 20px;
   margin: 0;
   color: white;
   padding-bottom: 20px;
@@ -215,24 +213,17 @@ font header .navbar-default .navbar-nav li a:hover {
   -ms-overflow-style: none;
 }
 
-#downloads .downloadables p {
-  margin: 0;
-  color: #666;
-}
-
 .post-download-line {
-  display: flex;
   padding-bottom: 10px;
 }
+
+.post-download-line a {
+  color: #666;
+}
 .post-download-line .download-icon {
-  display: flex;
-  align-items: center;
   color: white;
 }
-.post-download-line .doc-label {
-  display: flex;
-}
-.post-download-line .doc-label .date {
+.post-download-line .date {
   color: #b17524 !important;
   padding-right: 5px;
 }
