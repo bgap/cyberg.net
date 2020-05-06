@@ -1,6 +1,6 @@
 ---
 # layout: news
-title:  - Előterjesztés Felmentvény
+title: Előterjesztés Felmentvény
 docs:
   - file:  Eloterjesztes_Felmentveny.pdf
 categories: [news]
