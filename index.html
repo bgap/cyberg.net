@@ -83,15 +83,12 @@ permalink: /
 <section id="call-to-action">
   <div class="container">
     <div class="cyberg-articles-container">
-
       {% for article in site.data.external-articles %}
-        <div class="col-sm-6 col-md-2">
-          <div class="cyberg-articles" >
+          <div class="cyberg-articles">
             <img class="cyberg-articles-img" src="/assets/img/{{ article.img }}" alt="{{ article.source }}"></i>
             <p class="cyberg-articles-lang"><i class="fa fa-flag"></i> {{ article.lang }}
             </p>
             <a href="{{ article.link }}" aria-label="{{ article.title }}">{% t sections.articles.reading  %} <i class="fa fa-arrow-right"></i></a>
-          </div>
         </div>
       {% endfor %}
     </div>
