@@ -152,7 +152,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #post-intro .block h2 {
   padding-top: 35px;
-  line-height: 20px;
   margin: 0;
   color: black;
 }
@@ -182,39 +181,50 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #212327;
 }
 
-#downloads .block h2 {
+#downloads .section-title {
+  margin-bottom: 0px;
+}
+
+#downloads .section-title h2 {
   padding-top: 35px;
-  line-height: 20px;
   margin: 0;
   color: white;
   padding-bottom: 20px;
 }
 
-/* #downloads .block p {
-  color: white;
-  padding-top: 20px;
-} */
 #downloads .block img {
   width: 100%;
 }
 
-#downloads .section-title p {
+#downloads .downloadables {
+  max-height: 35rem;
+  overflow-y: auto;
   padding-top: 0px;
   margin: 0;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.cyberg-articles-container::-webkit-scrollbar,
+#downloads .downloadables::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE and Edge */
+.cyberg-articles-container,
+#downloads .downloadables {
+  -ms-overflow-style: none;
+}
+
 .post-download-line {
-  display: flex;
   padding-bottom: 10px;
 }
+
+.post-download-line a {
+  color: #666;
+}
 .post-download-line .download-icon {
-  display: flex;
-  align-items: center;
   color: white;
 }
-.post-download-line .doc-label {
-  display: flex;
-}
-.post-download-line .doc-label .date {
+.post-download-line .date {
   color: #b17524 !important;
   padding-right: 5px;
 }
@@ -437,7 +447,18 @@ footer .container {
   height: 20rem;
   width: 34rem;
 }
-.cyberg-articles-img {
+
+.cyberg-articles-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.cyberg-articles {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+}
+
+.cyberg-articles .cyberg-articles-img {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -445,12 +466,13 @@ footer .container {
   transform: translate(-50%, -50%);
   height: auto;
   width: 13rem;
+  filter: grayscale(100%);
 }
 
 .cyberg-articles-lang {
   margin-top: 8rem;
   color: #333;
-  padding-top: 10px;
+  padding: 10px 0 0 0 !important;
 }
 .cyberg-articles a {
   color: white;

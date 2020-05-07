@@ -1,17 +1,15 @@
 <div class="post-download-line">
-    <div class="download-icon">
-        <i class="fa fa-download"></i>
-    </div>
-    <div>
-        <a class="doc-label" href="{{ site.baseurl_root }}/assets/doc/{{ include.doc.file }}">
-            {% include local-date.html date=include.post.date %}
-            <p>
-                {% if include.doc.label %}
-                    {{ include.doc.label }}
-                    -
-                {% endif %}
-                {{ include.post.title }}
-            </p>
-        </a>
-    </div>
+    <a href="{{ site.baseurl_root }}/assets/doc/{{ include.doc.file }}">
+        <span class="download-icon">
+            <i class="fa fa-download"></i>
+        </span>
+        {% include local-date.html date=include.post.date %}
+        <span class="doc-label">
+            {% if include.doc.label %}
+                {{ include.doc.label }}
+                -
+            {% endif %}
+            {{ include.post.title }}
+        </span>
+    </a>
 </div>
