@@ -1,7 +1,7 @@
 ---
 # layout: news
 title: New revenue stream is built by the acquisition of BITGAP
-date: 2020-02-17 11:22:00
+date: 2020-01-17 11:22:00
 img: bitgap-forbes.jpg
 categories: [news]
 tags: [highlighted]

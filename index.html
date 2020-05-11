@@ -59,17 +59,17 @@ permalink: /
         </div>
       </div>
 
-      <div class="col-md-8 col-sm-12" style="width: 70rem; height: 35rem;overflow: scroll;">
+      <div class="col-md-8 col-sm-12">
         <div class="block">
           <div class="section-title">
             <h2>{% t sections.download.title %}</h2>
-              <p>
-                {% for post in site.posts %}
-                {% for doc in post.docs %}
+          </div>
+          <div class="downloadables">
+            {% for post in site.posts %}
+              {% for doc in post.docs %}
                 {% include post-download-line.html post=post doc=doc %}
-                {% endfor %}
-                {% endfor %}
-              </p>
+              {% endfor %}
+            {% endfor %}
           </div>
         </div>
       </div>
@@ -83,15 +83,12 @@ permalink: /
 <section id="call-to-action">
   <div class="container">
     <div class="cyberg-articles-container">
-
       {% for article in site.data.external-articles %}
-        <div class="col-sm-6 col-md-2">
-          <div class="cyberg-articles" >
+          <div class="cyberg-articles">
             <img class="cyberg-articles-img" src="/assets/img/{{ article.img }}" alt="{{ article.source }}"></i>
             <p class="cyberg-articles-lang"><i class="fa fa-flag"></i> {{ article.lang }}
             </p>
             <a href="{{ article.link }}" aria-label="{{ article.title }}">{% t sections.articles.reading  %} <i class="fa fa-arrow-right"></i></a>
-          </div>
         </div>
       {% endfor %}
     </div>
