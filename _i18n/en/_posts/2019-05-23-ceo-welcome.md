@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Balázs Rózsa
-subtitle: We Provide Food For Free
+subtitle: A message from our CEO
 docs:
-  - file: CEO_vision_23052019_en.pdf
+  - file: CEO_vision_ENG_04052020.pdf
     label: CEO's vision
 img: balazs_647x392.png
 position: 10
 ---
 
-Beyond good food, through our platform we're upselling premium services, digital content, games and apps in the future. Thousands or tens of thousands of restaurants with this hybrid model make massively more money from digital than meals. The extra revenue we earn can be reinvested in the network. So, we can provide food for free...
+Our vision is to offer food and drinks for free in restaurants and cafés while cleaning the world of fake profiles.
+Not a small task, but we're ready for it!

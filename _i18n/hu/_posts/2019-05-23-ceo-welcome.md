@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Balázs Rózsa
-subtitle: Ingyen Adjuk Az Ételt
+subtitle: Vezérigazgatói köszöntő
 docs:
-  - file: CEO_vision_23052019_hu.pdf
+  - file: CEO_vision_04052020.pdf
     label: Vezérigazgatói vízió
 img: balazs_647x392.png
 position: 10
 ---
 
-A kiváló ételek és italok mellett platformunkon a jövőben prémium szolgáltatásokat, digitális tartalmakat, játékokat és egyéb alkalmazásokat is értékesítünk. Több ezer vagy több tízezer étterem vagy kávézó ezzel a hibrid modellel lényegesen több bevételt tud termelni a digitális csatornából, mint az alaptermékekből. ételekből. Az extra bevételt visszaforgatjuk a z éttermi hálózat finanszírozásába, így ingyen tudjuk adni az ételt...
+Az a víziónk, hogy ingyen adjuk az ételeket/italokat az éttermekben és kávé- házakban, miközben megtisztítjuk a világot a hamis profiloktól.
+Nem kis feladat, de készen állunk rá!
