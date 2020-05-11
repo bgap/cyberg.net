@@ -2,6 +2,6 @@
 # layout: news
 title:  FTA Jelentés
 docs:
-  - file: FTA_Jelentes.pdf
+  - file: 05_melleklet_FTA_jelentes_CYBERG.pdf
 categories: [news]
 ---

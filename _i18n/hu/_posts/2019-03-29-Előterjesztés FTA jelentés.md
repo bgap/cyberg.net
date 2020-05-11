@@ -2,6 +2,6 @@
 # layout: news
 title: Előterjesztés FTA jelentés
 docs:
-  - file: Eloterjesztes_FTA_jelentes.pdf
+  - file: 05_eloterjesztes_hatarozati_javaslat_FTA jelentes_CYBERG.pdf
 categories: [news]
 ---
