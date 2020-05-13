@@ -1,7 +1,7 @@
 <span class="date">
     {% if site.lang == 'hu' %}
-        {% assign m = post.date | date: "%-m" %}
-        {{ post.date | date: "%Y" }}.
+        {% assign m = include.date | date: "%-m" %}
+        {{ include.date | date: "%Y" }}.
         {% case m %}
                 {% when '1' %}január
                 {% when '2' %}február
