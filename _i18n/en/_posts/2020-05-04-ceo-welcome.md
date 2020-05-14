@@ -10,4 +10,4 @@ position: 10
 ---
 
 Our vision is to offer food and drinks for free in restaurants and cafés while cleaning the world of fake profiles.
-Not a small task, but we're ready for it!
+Not a small task, but we are ready for it!
