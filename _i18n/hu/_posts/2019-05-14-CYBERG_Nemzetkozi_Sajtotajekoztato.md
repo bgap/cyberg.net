@@ -1,6 +1,6 @@
 ---
 # layout: news
-title:  CYBERG_Nemzetkozi_Sajtotajekoztato
+title:  CYBERG Nemzetkozi Sajtotajekoztato
 docs:
   - file: CYBERG_Nemzetkozi_Sajtotajekoztato.pdf
 categories: [news]

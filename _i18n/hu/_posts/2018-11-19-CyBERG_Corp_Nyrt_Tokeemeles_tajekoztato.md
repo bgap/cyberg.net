@@ -1,6 +1,6 @@
 ---
 # layout: news
-title: CyBERG_Corp_Nyrt_Tokeemeles_tajekoztato
+title: CyBERG Corp Nyrt Tokeemeles tajekoztato
 docs:
   - file: CyBERG_Corp_Nyrt_Tokeemeles_tajekoztato.pdf
 categories: [news]

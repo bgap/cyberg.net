@@ -1,6 +1,6 @@
 ---
 # layout: news
-title: CyBERG_Felelős Társaságirányítási Jelentés
+title: CyBERG Felelős Társaságirányítási Jelentés
 docs:
   - file: Cyberg_FTJ_2020.pdf
 categories: [news]

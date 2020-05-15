@@ -1,6 +1,6 @@
 ---
 # layout: news
-title: CyBERG_JAv_Politika
+title: CyBERG JAv Politika
 docs:
   - file: CyBERG_JAv_Politika.pdf
 categories: [news]
