@@ -49,7 +49,7 @@ permalink: /
   </div>
 </section>
 
-
+<!-- DOWNLOADS -->
 <section id="downloads">
   <div class="container">
     <div class="row">
@@ -64,11 +64,22 @@ permalink: /
           <div class="section-title">
             <h2>{% t sections.download.title %}</h2>
           </div>
-          <div class="downloadables">
-            {% for post in site.posts %}
-              {% for doc in post.docs %}
-                {% include post-download-line.html post=post doc=doc %}
+          {% assign postsByYear =
+            site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+            <div class="post-year-filters">
+              {% for year in postsByYear %}
+                <span > {{year.name}} </span>
               {% endfor %}
+            </div>
+          <div class="downloadables">
+              {% for year in postsByYear %}
+                {% for post in year.items %}
+                  {% for doc in post.docs %}
+                    <span class="post-downloadable {{year.name}}">
+                      {% include post-download-line.html post=post doc=doc %}
+                    </span>
+                  {% endfor %}
+                {% endfor %}
             {% endfor %}
           </div>
         </div>
@@ -80,6 +91,7 @@ permalink: /
 {% include post-intro-at-position.html position=40 mediaPosition='right' %}
 {% include post-intro-at-position.html position=50 mediaPosition='right' %}
 
+<!-- EXTERNAL ARTICLES -->
 <section id="call-to-action">
   <div class="container">
     <div class="cyberg-articles-container">

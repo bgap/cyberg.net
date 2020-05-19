@@ -237,6 +237,20 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 
+#downloads .post-year-filters {
+  text-align: right;
+  color: white;
+  margin: -2em 0 1em 0;
+}
+
+#downloads .post-year-filters span {
+  cursor: pointer;
+  padding: 0 1em;
+}
+#downloads .post-year-filters span + span {
+  border-left: solid white 1px;
+}
+
 /* The emerging W3C standard
    that is currently Firefox-only */
 #downloads .downloadables {
