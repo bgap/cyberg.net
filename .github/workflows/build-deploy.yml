@@ -1,9 +1,8 @@
 name: Build & Deploy
 
 on:
-  # push:
-    # types: [ closed ]
-    # branches: [ master ]
+  push:
+    branches: [ master ]
   pull_request:
     types: [ closed ]
     branches: [ master ]
@@ -17,3 +16,4 @@ jobs:
         with:
           github_token: ${{ secrets.ACTIONS_TOKEN }}
           skip_deploy: 'false'
+      - run: cp ./CNAME _site/CNAME
