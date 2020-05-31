@@ -14,6 +14,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   products/services in the physical shops.
 
 # Build settings
+include: ["CNAME"]
 plugins:
   - jekyll-multiple-languages-plugin
 
