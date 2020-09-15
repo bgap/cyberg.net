@@ -1,6 +1,6 @@
 ---
 # layout: news
-title: CyBERG alapszabály
+title: Féléves jelentés nyilatkozat
 docs:
   - file: CyBERG_2020_H1_Feleves_jelentes_Nyilatkozat.pdf
 categories: [news]
