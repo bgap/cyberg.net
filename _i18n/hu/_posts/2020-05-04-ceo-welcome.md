@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Balázs Rózsa
+title: Rózsa Balázs
 subtitle: Vezérigazgatói köszöntő
 docs:
   - file: CEO_vision_04052020.pdf
