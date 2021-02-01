@@ -1,4 +1,4 @@
-(c) 2020 - CyBERG Nyrt.
+(c) 2021 - CyBERG Nyrt.
 
 
 Terms and Conditions for Free Templates - from https://www.themefisher.com/license
