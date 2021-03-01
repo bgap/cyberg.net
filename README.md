@@ -4,7 +4,7 @@
 
 Public website for cyberg.net
 
-Deployment only happens through merging in a PR.
+Deployment only happens through merging in a PR. A direct push to master does NOT get deployed!
 
 ## Development
 
