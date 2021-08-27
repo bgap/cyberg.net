@@ -7,11 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cyberg.net" # the base hostname & protocol for your site, e.g. http://example.com
 
 description: >- # this means to ignore newlines until "baseurl:"
-  CyBERG Corp. Plc. is the developer of the disruptive 3FA (Food/drinks For Free Anywhere) model.
-  We are building up a global digital community through bricks and mortar touchpoints where
+  CyBERG Corp. Plc. is the developer of the disruptive AnyUpp application. We are building a global digital community through bricks and mortar touchpoints where
   physical filters supported by new technologies ensure the cleanliness of data and filter
-  out fake profiles and false information. As an incentive we offer discounts or even free
-  products/services in the physical shops.
+  out fake profiles and false information.
 
 # Build settings
 include: ["CNAME"]
