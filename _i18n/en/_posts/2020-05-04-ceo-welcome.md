@@ -6,7 +6,7 @@ docs:
   - file: CEO_vision_20210826_EN.pdf
     label: CEO's vision
 img: balazs_647x392.png
-position: 10
+position: 20
 ---
 
-I believe that using “the data” is not necessarily taboo. It is similar to most innovations, in a way that its value highly depends on what it is being used for. We want to show that it can be used for the betterment of humanity.
+I think that the use of data is not taboo. Just like most innovations, its value depends on what it is used for. We aim to set the world on the right path in this regard.

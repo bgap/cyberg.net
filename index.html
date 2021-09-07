@@ -31,11 +31,47 @@ permalink: /
   </div>
 </section>
 
-{% include post-intro-at-position.html position=10 mediaPosition='left' %}
-{% include post-intro-at-position.html position=20 mediaPosition='right' %}
-{% include post-intro-at-position.html position=30 mediaPosition='left' %}
+<section id="service">
+  <div class="container">
+    <div class="row">
+      {% for news in site.categories['news'] %}
+        {% if news.tags contains 'interest' %}
+          {% include areas-of-interest.html news=news %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
+<!-- PARTNERS -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="cyberg-articles-container">
+      {% for article in site.data.partners %}
+          <div class="cyberg-articles">
+            <img class="cyberg-articles-img" src="/assets/img/{{ article.img }}" alt="{{ article.source }}"></i>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
+{% include post-intro-at-position.html position=10 mediaPosition='right' %}
+{% include post-intro-at-position.html position=20 mediaPosition='left' %}
+{% include post-intro-at-position.html position=30 mediaPosition='right' %}
+{% include post-intro-at-position.html position=40 mediaPosition='left' %}
+
+<section id="service">
+  <div class="container">
+    <div class="row">
+      {% for news in site.categories['news'] %}
+        {% if news.tags contains 'value' %}
+          {% include values.html news=news %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
 <section id="service">
   <div class="container">
@@ -75,9 +111,12 @@ permalink: /
               {% for year in postsByYear %}
                 {% for post in year.items %}
                   {% for doc in post.docs %}
-                    <span class="post-downloadable {{year.name}}">
-                      {% include post-download-line.html post=post doc=doc %}
-                    </span>
+                    {% if post.tags contains 'interest' or post.tags contains 'highlighted'  or post.tags contains 'value' %}
+                    {% else %}
+                        <span class="post-downloadable {{year.name}}">
+                          {% include post-download-line.html post=post doc=doc %}
+                        </span>
+                    {% endif %}
                   {% endfor %}
                 {% endfor %}
             {% endfor %}
@@ -92,7 +131,7 @@ permalink: /
 {% include post-intro-at-position.html position=50 mediaPosition='right' %}
 
 <!-- EXTERNAL ARTICLES -->
-<section id="call-to-action">
+<!--<section id="call-to-action">
   <div class="container">
     <div class="cyberg-articles-container">
       {% for article in site.data.external-articles %}
@@ -104,7 +143,7 @@ permalink: /
         </div>
       {% endfor %}
     </div>
-  </div>
+  </div>-->
   <div class="cyberg-awards">
     <div class="cyberg-mastercard col-sm-12 col-md-12" >
       {% t sections.awards.mastercard %}

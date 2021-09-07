@@ -3,5 +3,5 @@
     {%include youtube-player.html id=include.youtubeId %}
 {% elsif include.img %}
     <!-- IMG -->
-    <img src="{{ site.baseurl_root }}/assets/img/{{include.img}}"/>
+    <img alt="{{include.alt}}" src="{{ site.baseurl_root }}/assets/img/{{include.img}}"/>
 {% endif %}

@@ -6,7 +6,7 @@ docs:
     label: CYBERG elemzés
 img: kalliwoda.jpg
 categories: [news]
-tags: [highlighted]
+tags: []
 ---
 
 Itt elérhető a legutóbbi elemzése a CYBERG-ről, amelyet a kis- és középvállalatokra szakosodott német részvény és kötvény elemző cég a Dr. Kalliwoda Research GmbH készített.
