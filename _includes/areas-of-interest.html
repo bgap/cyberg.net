@@ -1,0 +1,14 @@
+<div class="col-sm-12 col-md-4">
+    <div class="service-item">
+      {% include media-block.html youtubeId=include.news.youtubeId
+      img=include.news.img alt=include.news.alt %}
+      <h2>{{ include.news.title }}</h2>
+        &nbsp;
+      <p>
+        {{ include.news.content | markdownify }}
+      </p>
+      {% include links.html links=include.news.links %} {% include docs.html
+      docs=include.news.docs %}
+    </div>
+  </div>
+  

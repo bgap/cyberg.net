@@ -1,7 +1,7 @@
 ---
 layout: post
 img: sketch014.png
-position: 30
+position: 40
 ---
 
-In 2020 Bitgap Ltd. became a 100% subsidiary, so a highly skilled software engineer team has joined CYBERG. The professional team mainly has been engaged in fintech and logistic solutions based on blockchain and cloud technologies, but have also established digital sales systems of high conversion potential, enhanced with gaming elements, artificial intelligence and machine learning. For a key client (PayCap) they have recently developed a global payment system. Earlier, Bitgap worked for Silicon Valley companies such as First Foundry, GarageGames, and Disney Interactive.
+In 2020 Bitgap Ltd. became a 100% subsidiary, so a highly skilled software engineer team has joined CYBERG. The professional team mainly has been engaged in fintech and logistic solutions based on blockchain and cloud technologies, but have also established digital sales systems of high conversion potential, enhanced with gaming elements, artificial intelligence and machine learning. For a key client (PayCap) they have recently developed a global payment system. Earlier, Bitgap worked for US videogame developer companies such as Disney Interactive, First Foundry and Beyond Games.

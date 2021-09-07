@@ -1,0 +1,29 @@
+- source: Merigo
+  title: Merigo
+  img: logo-merigo.png
+  link: https://merigo.co
+  lang: US
+
+- source: Laguna Games
+  title: Laguna Games
+  img: logo-laguna.png
+  link: https://laguna.games
+  lang: US
+
+- source: PayCap
+  title: PayCap
+  img: logo-paycap.png
+  link: '#'
+  lang: HU
+
+- source: Disney Interactive
+  title: Disney Interactive
+  img: logo-disney.png
+  link: https://en.wikipedia.org/wiki/Disney_Interactive
+  lang: US
+
+- source: Cafe Frei
+  title: Cafe Frei
+  img: logo-frei.png
+  link: https://www.cafefrei.com/
+  lang: HU
