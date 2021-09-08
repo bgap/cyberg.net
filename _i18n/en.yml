@@ -4,10 +4,7 @@ global:
 sections:
   intro:
     title: Cyberg is an innovative information technology company, listed on the Budapest Stock Exchange
-    content: >
-      AnyUpp, our product digitizes the gastronomy and retail businesses; 
-      building a universal e-commerce platform. Besides, we also participate
-      in significant international fintech and game development projects.
+    content: AnyUpp, our product digitizes the gastronomy and retail businesses; building a universal e-commerce platform. Besides, we also participate in significant international fintech and game development projects.
   download:
     title: News
   articles:
