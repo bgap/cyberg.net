@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Open + Sans:400, 300, 600);
+@import url(//fonts.googleapis.com/css?family=OpenSans:400, 300, 600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400, 100, 300, 500, 700);
 
 @font-face {
@@ -523,7 +523,7 @@ footer .container {
 .cyberg-partners-img {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 52px;
   left: 50%;
   height: auto;
   width: 13rem;
