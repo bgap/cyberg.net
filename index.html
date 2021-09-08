@@ -44,12 +44,12 @@ permalink: /
 </section>
 
 <!-- PARTNERS -->
-<section id="call-to-action">
+<section id="service">
   <div class="container">
     <div class="cyberg-articles-container">
       {% for article in site.data.partners %}
           <div class="cyberg-articles">
-            <img class="cyberg-articles-img" src="/assets/img/{{ article.img }}" alt="{{ article.source }}"></i>
+            <img class="cyberg-partners-img" src="/assets/img/{{ article.img }}" alt="{{ article.source }}"></i>
         </div>
       {% endfor %}
     </div>
@@ -127,12 +127,12 @@ permalink: /
   </div>
 </section>
 
-{% include post-intro-at-position.html position=40 mediaPosition='right' %}
 {% include post-intro-at-position.html position=50 mediaPosition='right' %}
+{% include post-intro-at-position.html position=60 mediaPosition='right' %}
 
 <!-- EXTERNAL ARTICLES -->
-<!--<section id="call-to-action">
-  <div class="container">
+<section id="call-to-action">
+  <!--<div class="container">
     <div class="cyberg-articles-container">
       {% for article in site.data.external-articles %}
           <div class="cyberg-articles">
