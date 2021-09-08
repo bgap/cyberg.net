@@ -4,10 +4,7 @@ global:
 sections:
   intro:
     title: A CYBERG a Budapesti Értéktőzsdén jegyzett innovatív technológiai vállalat
-    content: >
-    Az AnyUpp nevű termékünkkel a gasztronómiai- és kereskedelmi szektor
-    digitalizációján keresztül egy e-commerce platformot építünk, emellett
-    jelentős nemzetközi fintech és gaming projektekben veszünk részt. 
+    content: Az AnyUpp nevű termékünkkel a gasztronómiai- és kereskedelmi szektor digitalizációján keresztül egy e-commerce platformot építünk, emellett jelentős nemzetközi fintech és gaming projektekben veszünk részt.
   download:
     title: Hírek
   articles:
