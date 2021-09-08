@@ -1,10 +1,7 @@
 ---
 # layout: news
-title: Agreement with Cafe Frei
-docs:
-  - file: CafeFrei_CyBERG_Egyuttmukodes_20210201.pdf
-    label: Cafe Frei - CyBERG cooperation
-img: cafe-frei-bg.jpg
+title: AnyUpp in KAJAHU
+img: kajahu.jpg
 categories: [news]
 tags: [highlighted]
 ---

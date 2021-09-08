@@ -1,9 +1,6 @@
 ---
 # layout: news
-title: CYBERG Corp Kalliwoda research update
-docs:
-  - file: CYBERG_Corp_Kalliwoda_research_update.pdf
-    label: CYBERG research
+title: AnyUpp a KAJAHU-ban
 img: kajahu.jpg
 categories: [news]
 tags: [highlighted]
