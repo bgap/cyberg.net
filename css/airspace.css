@@ -294,6 +294,10 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 30px;
 }
 
+.values .service-item {
+  height: 200px;
+}
+
 #service .service-item h2 {
   text-align: left;
   padding-left: 10px;
@@ -519,6 +523,7 @@ footer .container {
   overflow-x: auto;
   white-space: nowrap;
   height: 13rem;
+  overflow-y: hidden;
 }
 .cyberg-partners-img {
   margin: 0;
