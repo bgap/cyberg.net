@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "net.cyberg.anyupp",
+        "sha256_cert_fingerprints":
+          ["4D:11:19:B1:F7:09:FD:71:0B:E2:63:C0:26:D2:F3:8F:1F:02:C7:E0:4A:90:89:32:CE:DE:B3:83:C5:2B:C4:FB"]
+      }
+    }
+  ]
