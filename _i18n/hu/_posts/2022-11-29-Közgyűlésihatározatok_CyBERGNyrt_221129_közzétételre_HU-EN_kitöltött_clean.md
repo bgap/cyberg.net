@@ -2,6 +2,6 @@
 # layout: news
 title: Közgyűlési határozatok
 docs:
-  - file: Közgyűlésihatározatok_CyBERGNyrt_221129_közzétételre_HU-EN_kitöltött_clean.pdf
+  - file: kozgy_hat_cyberg.pdf 
 categories: [news]
 ---

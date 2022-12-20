@@ -2,6 +2,6 @@
 # layout: news
 title: Információs Összeállítás
 docs:
-  - file: Információs_Összeállítás.pdf
+  - file: informaciosos_osszeallitas.pdf 
 categories: [news]
 ---
