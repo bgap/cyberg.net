@@ -1,6 +1,6 @@
 ---
 # layout: news
-title: KGY előterjesztések
+title: Proposal for the extraordinary general meeting
 docs:
   - file: CybergKGY29.pdf  
 categories: [news]
