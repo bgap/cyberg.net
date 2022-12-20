@@ -2,6 +2,6 @@
 # layout: news
 title: Rendkívüli Tájékoztatás
 docs:
-  - file: RendkívüliTájékoztatás.pdf
+  - file: rendkivuli_tajekoztatas.pdf
 categories: [news]
 ---
