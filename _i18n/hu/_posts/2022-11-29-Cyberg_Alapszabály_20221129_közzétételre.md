@@ -2,6 +2,6 @@
 # layout: news
 title: Cyberg Alapszabály
 docs:
-  - file: Cyberg_Alapszabály_20221129_közzétételre.pdf
+  - file: cyberg_alapszabaly_kozzetetelre.pdf 
 categories: [news]
 ---
